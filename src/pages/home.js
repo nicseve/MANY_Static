@@ -1,6 +1,6 @@
 import React from 'react';
 import NavigationButton from "../components/navigationButton";
-import manyLogoLarge from "../assets/logos/MANY_Large.png"
+import MANYLogoLarge from "../assets/logos/MANY_Large.png"
 
 export default class Home extends React.Component {
     render() {
@@ -10,7 +10,7 @@ export default class Home extends React.Component {
 
         return (
             <div>
-                <img src={manyLogoLarge} alt="MANY logo"/>
+                <img src={MANYLogoLarge} alt="MANY logo"/>
                 <NavigationButton path={'/'} displayComponent={signInButtonDisplayComponent}/>
                 <NavigationButton path={'/'} displayComponent={createGroupButtonDisplayComponent}/>
                 <NavigationButton path={'/'} displayComponent={viewPrevGroupsButtonDisplayComponent}/>
