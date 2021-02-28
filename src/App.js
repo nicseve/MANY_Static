@@ -12,7 +12,7 @@ function App() {
                         <Link to="/">Splash</Link>
                     </li>
                     <li>
-                        <Link to="/about">Home</Link>
+                        <Link to="/home">Home</Link>
                     </li>
                 </ul>
 
