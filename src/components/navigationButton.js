@@ -1,5 +1,6 @@
 import React from 'react';
 import {useHistory} from 'react-router-dom';
+import * as buttonStyles from '../styles/buttons'
 
 // Valid props: path,icon.
 const NavigationButton = (props) => {
@@ -8,7 +9,7 @@ const NavigationButton = (props) => {
     const buttonDisplayComponent = props.displayComponent
 
     return (
-        <button type="button" onClick={handleClick}>
+        <button style={buttonStyles.smallRounded} type="button" onClick={handleClick}>
             {buttonDisplayComponent}
         </button>
     );
