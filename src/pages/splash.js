@@ -9,7 +9,7 @@ export default class Splash extends React.Component {
         const homeButtonDisplayComponent = <img src={forwardButtonIcon} alt="home button"/>
 
         return (
-            <div>
+            <div className={'App-header'} >
                 <img src={manyLogoLarge} alt="MANY logo"/>
                 <NavigationButton path={'/home'} displayComponent={homeButtonDisplayComponent}/>
             </div>

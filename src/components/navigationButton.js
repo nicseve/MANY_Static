@@ -1,17 +1,18 @@
 import React from 'react';
 import {useHistory} from 'react-router-dom';
-import * as buttonStyles from '../styles/buttons'
+import Button from 'react-bootstrap/Button';
+import 'bootstrap/dist/css/bootstrap.min.css';
+// import * as buttonStyles from '../styles/buttons'
 
 // Valid props: path,icon.
 const NavigationButton = (props) => {
     const history = useHistory();
     const handleClick = () => history.push(props.path);
-    const buttonDisplayComponent = props.displayComponent
 
     return (
-        <button style={buttonStyles.smallRounded} type="button" onClick={handleClick}>
-            {buttonDisplayComponent}
-        </button>
+        <Button variant="light" onClick={handleClick}>
+            {props.displayComponent}
+        </Button>
     );
 };
 

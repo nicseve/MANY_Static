@@ -1,21 +1,12 @@
 import React from 'react';
 import './App.css';
 import {Home,Splash} from './pages/index.js'
-import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
+import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 function App() {
     return (
         <Router>
             <div>
-                <ul>
-                    <li>
-                        <Link to="/">Splash</Link>
-                    </li>
-                    <li>
-                        <Link to="/home">Home</Link>
-                    </li>
-                </ul>
-
                 <Switch>
                     <Route exact path="/">
                         <Splash/>

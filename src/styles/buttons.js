@@ -4,13 +4,11 @@ export const small = {
     width: 75
 };
 
-export const rounded = {
-    borderRadius: 50,
-    borderWidth:.1,
+export const base = {
+    border: 'none',
+    backgroundColor: 'rgba(52, 52, 52, 0)',
 };
 
-export const smallRounded = {
-    ...small,
-    ...rounded,
-    backgroundColor: 'rgba(52, 52, 52, 0)',
+export const highlight = {
+    backgroundColor: 'rgba(52, 52, 52, .1)',
 };
