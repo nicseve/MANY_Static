@@ -14,7 +14,7 @@ export default class Home extends React.Component {
 
                 <img src={MANYLogoLarge} alt="MANY logo"/>
                 <NavigationButton path={'/'} displayComponent={signInButtonDisplayComponent}/>
-                <NavigationButton path={'/'} displayComponent={createGroupButtonDisplayComponent}/>
+                <NavigationButton path={'/whoGroup'} displayComponent={createGroupButtonDisplayComponent}/>
                 <NavigationButton path={'/'} displayComponent={viewPrevGroupsButtonDisplayComponent}/>
             </div>
         )

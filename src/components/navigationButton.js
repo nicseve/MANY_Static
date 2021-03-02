@@ -1,7 +1,5 @@
 import React from 'react';
 import {useHistory} from 'react-router-dom';
-import Button from 'react-bootstrap/Button';
-import 'bootstrap/dist/css/bootstrap.min.css';
 // import * as buttonStyles from '../styles/buttons'
 
 // Valid props: path,icon.
@@ -10,9 +8,9 @@ const NavigationButton = (props) => {
     const handleClick = () => history.push(props.path);
 
     return (
-        <Button variant="light" onClick={handleClick}>
+        <button onClick={handleClick}>
             {props.displayComponent}
-        </Button>
+        </button>
     );
 };
 

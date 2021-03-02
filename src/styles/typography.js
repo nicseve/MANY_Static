@@ -6,3 +6,12 @@ export const cushingTextBase =
         color: 'black',
         justifyContent: 'center'
     }
+
+export const cushingTextHeader =
+    {
+            fontSize: 30,
+            fontWeight: 'bold',
+            fontFamily: 'ITC Cushing Std',
+            color: 'black',
+            justifyContent: 'center'
+    }
