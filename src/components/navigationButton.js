@@ -1,16 +1,16 @@
 import React from 'react';
 import {useHistory} from 'react-router-dom';
-// import * as buttonStyles from '../styles/buttons'
+import Button from '@material-ui/core/Button'
 
-// Valid props: path,icon.
+// Valid props: path,displayComponent
 const NavigationButton = (props) => {
     const history = useHistory();
     const handleClick = () => history.push(props.path);
 
     return (
-        <button onClick={handleClick}>
+        <Button style={{size:'auto'}} onClick={handleClick}>
             {props.displayComponent}
-        </button>
+        </Button>
     );
 };
 
