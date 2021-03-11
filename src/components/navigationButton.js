@@ -8,7 +8,7 @@ const NavigationButton = (props) => {
     const handleClick = () => history.push(props.path);
 
     return (
-        <Button style={{size:'auto'}} onClick={handleClick}>
+        <Button style={{minWidth: '60%', maxWidth: '60%'}} onClick={handleClick}>
             {props.displayComponent}
         </Button>
     );

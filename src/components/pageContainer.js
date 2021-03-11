@@ -4,9 +4,11 @@ import React from "react";
 
 const PageContainer = styled(Container)`
   background-color: whitesmoke;
-  position: relative;
   z-index: 2;
   height: 100vh;
+  //padding-top: 50px;
+  justify-items: center;
+  align-items: center;
 `;
 
 export default PageContainer
