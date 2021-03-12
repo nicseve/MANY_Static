@@ -2,12 +2,13 @@ import {Grid} from "@material-ui/core";
 import styled from 'styled-components';
 import React from "react";
 
+// This page grid is fixed to mimic the iphone frame's screen.
 const PageGrid = styled(Grid)`
-  max-width: 310px;
-  min-height: 540px;
+  max-width: 297px;
+  min-height: 533px;
   margin: auto;
   background-color: whitesmoke;
-  z-index: 0;
+  z-index: 1;
 `;
 
 export default PageGrid

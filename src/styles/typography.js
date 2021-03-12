@@ -3,7 +3,7 @@ import '../assets/fonts/Cushing Std Book.ttf'
 
 export const cushingTextBase =
     {
-        fontSize: 17,
+        fontSize: 19,
         fontWeight: 'bold',
         fontFamily: 'ITC Cushing Std',
         color: 'black',

@@ -1,16 +1,23 @@
 import React from 'react';
 import {useHistory} from 'react-router-dom';
 import Button from '@material-ui/core/Button'
+import styled from "styled-components";
 
-// Valid props: path,displayComponent
+// TODO: Add props to adjust width for inline nav buttons
+const StyledButton = styled(Button)`
+  height: 8%;
+  z-index: 1;
+`;
+
+// Valid props: path,displayComponent,type(inline or block)
 const NavigationButton = (props) => {
     const history = useHistory();
     const handleClick = () => history.push(props.path);
 
     return (
-        <Button style={{minWidth: '60%', maxWidth: '60%'}} onClick={handleClick}>
+        <StyledButton onClick={handleClick}>
             {props.displayComponent}
-        </Button>
+        </StyledButton>
     );
 };
 
