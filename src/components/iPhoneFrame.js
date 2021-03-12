@@ -9,7 +9,7 @@ const IphoneFrameStyled = styled.img`
   position: absolute;
   max-height: 750px
 }`
-{/*The iPhone frame is fixed to avoid resizing with the viewport*/}
+{/*The iPhone frame is fixed to avoid resizing with the viewport. This limits accessibility and cross-device supportability.*/}
 const IphoneFrame = () => {
     return <IphoneFrameStyled src={iphone}
                               alt={'iPhone frame'}/>
