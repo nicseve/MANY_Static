@@ -1,11 +1,11 @@
 import React from 'react';
-import {ContainerDiv, IphoneFrame, TextHeaderCush} from "../components";
+import {MainContainer, IphoneFrame, TextHeaderCush} from "../components";
 
 
 export default class WhatDuration extends React.Component {
     render() {
         return (
-            <ContainerDiv>
+            <MainContainer>
                 <IphoneFrame/>
                 <div style={{height: '30px', marginBottom: '33%'}}>
                     <TextHeaderCush>What is the duration?</TextHeaderCush>
@@ -25,7 +25,7 @@ export default class WhatDuration extends React.Component {
                     }}>months
                     </text>
                 </div>
-            </ContainerDiv>
+            </MainContainer>
         )
     }
 }

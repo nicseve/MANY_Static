@@ -1,6 +1,5 @@
 import React from 'react';
-import {NavigationButton, ContainerDiv, TextBaseCush, IphoneFrame, ManyLogo} from "../components/index";
-import Grid from '@material-ui/core/Grid';
+import {NavigationButton, IphoneScreen, MainContainer, TextBaseCush, IphoneFrame, ManyLogo} from "../components/index";
 
 export default class Home extends React.Component {
 
@@ -10,42 +9,32 @@ export default class Home extends React.Component {
         const viewPrevGroupsButtonDisplayComponent = <TextBaseCush>View previous groups</TextBaseCush>
 
         return (
-            <ContainerDiv>
-                <div
-                    style={{
-                        maxWidth: '305px',
-                        width:'305px',
-                        height:'537px',
-                        minHeight: '537px',
-                        backgroundColor:'whitesmoke',
-                        display: 'flex',
-                        flexDirection: 'column',
-                        justifyContent: 'center',
-                        alignItems: 'center'
-                    }}
-                >
+            <MainContainer>
                 <IphoneFrame/>
-
+                <IphoneScreen>
                     {/*//TODO: Make logo a nav button to info page*/}
-                    <ManyLogo/>
-                    <div
-                        style={{
-                            display: 'flex',
-                            flexDirection: 'column',
-                            justifyContent: 'center',
-                            alignItems: 'center',
-                            gap: '10px'
-                        }}
-                    >
-                        <NavigationButton path={'/'}
-                                          displayComponent={signInButtonDisplayComponent}/>
-                        <NavigationButton path={'/whoGroup'}
-                                          displayComponent={createGroupButtonDisplayComponent}/>
-                        <NavigationButton path={'/'}
-                                          displayComponent={viewPrevGroupsButtonDisplayComponent}/>
+                    <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '90px',marginTop:'200px'}}>
+                        <ManyLogo/>
+                        <div
+                            style={{
+                                // marginTop: '120px',
+                                display: 'flex',
+                                flexDirection: 'column',
+                                justifyContent: 'center',
+                                alignItems: 'center',
+                                gap: '5px'
+                            }}
+                        >
+                            <NavigationButton path={'/'}
+                                              displayComponent={signInButtonDisplayComponent}/>
+                            <NavigationButton path={'/whoGroup'}
+                                              displayComponent={createGroupButtonDisplayComponent}/>
+                            <NavigationButton path={'/'}
+                                              displayComponent={viewPrevGroupsButtonDisplayComponent}/>
+                        </div>
                     </div>
-                </div>
-            </ContainerDiv>
+                </IphoneScreen>
+            </MainContainer>
         )
     }
 

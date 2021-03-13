@@ -1,5 +1,5 @@
 import React from "react";
-import {NavigationButton, ManyLogo, IphoneFrame, ContainerDiv, PageGrid} from "../components/index";
+import {NavigationButton, IphoneScreen, ManyLogo, IphoneFrame, MainContainer, PageGrid} from "../components/index";
 import {forwardButtonIcon} from '../assets/icons/index'
 
 
@@ -8,17 +8,13 @@ export default class Splash extends React.Component {
         const homeButtonDisplayComponent = <img src={forwardButtonIcon} alt="home button"/>
 
         return (
-            <ContainerDiv>
+            <MainContainer>
                 <IphoneFrame/>
-                <PageGrid
-                    container
-                    direction="column"
-                    justify="center"
-                    alignItems="center">
+                <IphoneScreen>
                     <ManyLogo/>
                     <NavigationButton path={'/home'} displayComponent={homeButtonDisplayComponent}/>
-                </PageGrid>
-            </ContainerDiv>
+                </IphoneScreen>
+            </MainContainer>
         )
     }
 }

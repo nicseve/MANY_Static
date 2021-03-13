@@ -1,7 +1,7 @@
 import React from "react";
 import styled from 'styled-components';
 
-const ContainerDiv = styled.div`
+const MainContainer = styled.div`
 {
   z-index: auto;
   height: 100vh;
@@ -14,4 +14,4 @@ const ContainerDiv = styled.div`
 }
 `
 
-export default ContainerDiv;
+export default MainContainer;

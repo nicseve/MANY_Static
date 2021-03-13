@@ -1,11 +1,11 @@
 import React from 'react';
 import {TextField, Button} from '@material-ui/core'
-import {IphoneFrame, ContainerDiv, PageGrid, TextBaseCush} from "../components/index";
+import {IphoneFrame, MainContainer, PageGrid, TextBaseCush} from "../components/index";
 
 
 function WhoGroup() {
     return (
-        <ContainerDiv>
+        <MainContainer>
             <IphoneFrame/>
             <PageGrid
                 container
@@ -38,7 +38,7 @@ function WhoGroup() {
                     {/*</Button>*/}
                 </label>
             </PageGrid>
-        </ContainerDiv>
+        </MainContainer>
     );
 }
 
