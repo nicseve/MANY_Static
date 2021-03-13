@@ -17,7 +17,6 @@ export default class Home extends React.Component {
                         <ManyLogo/>
                         <div
                             style={{
-                                // marginTop: '120px',
                                 display: 'flex',
                                 flexDirection: 'column',
                                 justifyContent: 'center',
