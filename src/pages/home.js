@@ -1,6 +1,6 @@
 import React from 'react';
-import MANYLogoLarge from "../assets/logos/MANY_Large.png"
-import {PageGrid, NavigationButton, ContainerDiv, TextBaseCush, IphoneFrame, ManyLogo} from "../components/index";
+import {NavigationButton, ContainerDiv, TextBaseCush, IphoneFrame, ManyLogo} from "../components/index";
+import Grid from '@material-ui/core/Grid';
 
 export default class Home extends React.Component {
 
@@ -12,20 +12,32 @@ export default class Home extends React.Component {
         return (
             <ContainerDiv>
                 <IphoneFrame/>
-                <PageGrid
-                    container
-                    direction="column"
-                    justify="center"
-                    alignItems="center"
+                <div
+                    style={{
+                        display: 'flex',
+                        flexDirection: 'column',
+                        justifyContent: 'center',
+                        alignItems: 'center'
+                    }}
                 >
                     <ManyLogo/>
-                    <NavigationButton path={'/'}
-                                      displayComponent={signInButtonDisplayComponent}/>
-                    <NavigationButton path={'/whoGroup'}
-                                      displayComponent={createGroupButtonDisplayComponent}/>
-                    <NavigationButton path={'/'}
-                                      displayComponent={viewPrevGroupsButtonDisplayComponent}/>
-                </PageGrid>
+                    <div
+                        style={{
+                            display: 'flex',
+                            flexDirection: 'column',
+                            justifyContent: 'center',
+                            alignItems: 'center',
+                            gap: '10px'
+                        }}
+                    >
+                        <NavigationButton path={'/'}
+                                          displayComponent={signInButtonDisplayComponent}/>
+                        <NavigationButton path={'/whoGroup'}
+                                          displayComponent={createGroupButtonDisplayComponent}/>
+                        <NavigationButton path={'/'}
+                                          displayComponent={viewPrevGroupsButtonDisplayComponent}/>
+                    </div>
+                </div>
             </ContainerDiv>
         )
     }

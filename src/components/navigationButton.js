@@ -5,7 +5,7 @@ import styled from "styled-components";
 
 // TODO: Add props to adjust width for inline nav buttons
 const StyledButton = styled(Button)`
-  height: 8%;
+  height: 16%;
   z-index: 1;
 `;
 

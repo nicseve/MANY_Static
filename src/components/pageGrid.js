@@ -1,6 +1,5 @@
 import {Grid} from "@material-ui/core";
 import styled from 'styled-components';
-import React from "react";
 
 // This page grid is fixed to mimic the iphone frame's screen.
 const PageGrid = styled(Grid)`

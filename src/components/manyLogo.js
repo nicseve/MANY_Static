@@ -6,7 +6,6 @@ const ManyLogoStyled = styled.img`
 {
   max-width: 70%;
   max-height: 40%;
-  padding-bottom: 30%;
 }
 `
 
