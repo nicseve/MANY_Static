@@ -7,22 +7,25 @@ export default class WhatDuration extends React.Component {
         return (
             <ContainerDiv>
                 <IphoneFrame/>
-                <div style={{position: 'relative', top: '-210px'}}>
+                <div style={{height: '30px', marginBottom: '33%'}}>
                     <TextHeaderCush>What is the duration?</TextHeaderCush>
                 </div>
-                <text
-                    style={{backgroundColor: 'red', position: 'absolute', fontWeight: 'regular', fontSize: '80px'}}>12
-                </text>
-                <text style={{
-                    backgroundColor: 'green',
-                    position: 'relative',
-                    fontWeight: 'regular',
-                    fontSize: '20px'
-                }}>months
-                </text>
-
+                <div style={{position: 'absolute', top: '25%', left: '41%'}}>
+                    <text
+                        style={{
+                            // backgroundColor: 'red',
+                            fontWeight: 'regular',
+                            fontSize: '80px'
+                        }}>12
+                    </text>
+                    <text style={{
+                        // backgroundColor: 'blue',
+                        fontWeight: 'regular',
+                        fontSize: '20px'
+                    }}>months
+                    </text>
+                </div>
             </ContainerDiv>
         )
     }
-
 }
