@@ -11,15 +11,21 @@ export default class Home extends React.Component {
 
         return (
             <ContainerDiv>
-                <IphoneFrame/>
                 <div
                     style={{
+                        maxWidth: '305px',
+                        width:'305px',
+                        height:'537px',
+                        minHeight: '537px',
+                        backgroundColor:'whitesmoke',
                         display: 'flex',
                         flexDirection: 'column',
                         justifyContent: 'center',
                         alignItems: 'center'
                     }}
                 >
+                <IphoneFrame/>
+
                     {/*//TODO: Make logo a nav button to info page*/}
                     <ManyLogo/>
                     <div
