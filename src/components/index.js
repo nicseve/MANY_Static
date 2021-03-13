@@ -5,13 +5,15 @@ import ContainerDiv from "./containerDiv";
 import TextBaseCush from "./textBaseCush";
 import IphoneFrame from "./iPhoneFrame";
 import ManyLogo from "./manyLogo";
+import TextHeaderCush from "./textHeaderCush";
 
-export{
+export {
     NavigationButton,
     PageGrid,
     PageContainer,
     ContainerDiv,
     TextBaseCush,
     IphoneFrame,
-    ManyLogo
+    ManyLogo,
+    TextHeaderCush
 }

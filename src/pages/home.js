@@ -20,6 +20,7 @@ export default class Home extends React.Component {
                         alignItems: 'center'
                     }}
                 >
+                    {/*//TODO: Make logo a nav button to info page*/}
                     <ManyLogo/>
                     <div
                         style={{
