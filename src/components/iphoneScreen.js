@@ -5,10 +5,10 @@ const IphoneScreen = styled.div`{
   width: 306px;
   height: 538px;
   min-height: 538px;
-  padding-top:2px;
-  padding-right:2px;
-  margin:auto;
-  background-color: whitesmoke;
+  padding-top: 2px;
+  padding-right: 2px;
+  margin: auto;
+  background-color: #f8f8f8;
   z-index: 1;
 }`
 

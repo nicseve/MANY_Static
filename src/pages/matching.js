@@ -1,18 +1,16 @@
 import React, {useRef} from 'react';
 import {MainContainer, IphoneFrame, IphoneScreen} from "../components";
 import {
-    SnapList,
-    SnapItem,
-    useVisibleElements,
-    useScroll,
-    useDragToScroll
+    SnapItem, SnapList, useDragToScroll,
 } from 'react-snaplist-carousel';
-
 
 const Matching = () => {
 
     const snapList = useRef(null);
-    const {isDragging} = useDragToScroll({ref: snapList, disable: false});
+    useDragToScroll({ref: snapList, disable: false});
+
+    const snapList1 = useRef(null);
+    useDragToScroll({ref: snapList1, disable: false});
 
     let months = [];
     for (let i = 0; i <= 24; i++) {
@@ -21,7 +19,7 @@ const Matching = () => {
                 <button style={{backgroundColor: 'yellow'}}>
                     <text
                         style={{
-                            color: 'white',
+                            color: 'blue',
                             fontWeight: 'regular',
                             fontSize: '80px',
                         }}>{i}
@@ -32,27 +30,17 @@ const Matching = () => {
     return (
         <MainContainer>
             <IphoneFrame/>
-
             <IphoneScreen>
-
-                <SnapList ref={snapList}  direction="horizontal"
-                          width={310}>
+                <SnapList ref={snapList} direction="horizontal"
+                          width='100%'>
                     {months}
                 </SnapList>
-                {/*<ScrollContainer style={{*/}
-                {/*    backgroundColor: 'blue',*/}
-                {/*    zIndex: 1,*/}
-                {/*    flexDirection: 'row',*/}
-                {/*    alignItems: 'center',*/}
-                {/*    display: 'flex',*/}
-                {/*    position: 'absolute',*/}
-                {/*    marginTop: 290,*/}
-                {/*    width: 302,*/}
-                {/*    height: 250,*/}
-                {/*    overflow: "auto"*/}
-                {/*}}>*/}
-                {/*    {months}*/}
-                {/*</ScrollContainer>*/}
+                <SnapList ref={snapList1} direction="horizontal"
+                          width='100%'>
+                    {months}
+                </SnapList>
+
+
             </IphoneScreen>
         </MainContainer>
     )
