@@ -1,23 +1,41 @@
 import React from 'react';
-import NavigationButton from "../components/navigationButton";
-import MANYLogoLarge from "../assets/logos/MANY_Large.png"
-import * as typographyStyles from "../styles/typography"
+import {NavigationButton, IphoneScreen, MainContainer, TextBaseCush, IphoneFrame, ManyLogo} from "../components/index";
 
 export default class Home extends React.Component {
+
     render() {
-        const signInButtonDisplayComponent = <text style={typographyStyles.cushingTextBase}>Sign In</text>
-        const createGroupButtonDisplayComponent = <text style={typographyStyles.cushingTextBase}>Create a group</text>
-        const viewPrevGroupsButtonDisplayComponent = <text style={typographyStyles.cushingTextBase}>View previous groups</text>
+        const signInButtonDisplayComponent = <TextBaseCush>Sign in</TextBaseCush>
+        const createGroupButtonDisplayComponent = <TextBaseCush>Create a group</TextBaseCush>
+        const viewPrevGroupsButtonDisplayComponent = <TextBaseCush>View previous groups</TextBaseCush>
 
         return (
-            <div className={'App-header'} >
-
-                <img src={MANYLogoLarge} alt="MANY logo"/>
-                <NavigationButton path={'/'} displayComponent={signInButtonDisplayComponent}/>
-                <NavigationButton path={'/'} displayComponent={createGroupButtonDisplayComponent}/>
-                <NavigationButton path={'/'} displayComponent={viewPrevGroupsButtonDisplayComponent}/>
-            </div>
+            <MainContainer>
+                <IphoneFrame/>
+                <IphoneScreen>
+                    {/*//TODO: Make logo a nav button to info page*/}
+                    <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '90px',marginTop:'200px'}}>
+                        <ManyLogo/>
+                        <div
+                            style={{
+                                display: 'flex',
+                                flexDirection: 'column',
+                                justifyContent: 'center',
+                                alignItems: 'center',
+                                gap: '5px'
+                            }}
+                        >
+                            <NavigationButton path={'/'}
+                                              displayComponent={signInButtonDisplayComponent}/>
+                            <NavigationButton path={'/whoGroup'}
+                                              displayComponent={createGroupButtonDisplayComponent}/>
+                            <NavigationButton path={'/'}
+                                              displayComponent={viewPrevGroupsButtonDisplayComponent}/>
+                        </div>
+                    </div>
+                </IphoneScreen>
+            </MainContainer>
         )
     }
+
 }
 
