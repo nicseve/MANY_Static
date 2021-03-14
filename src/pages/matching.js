@@ -7,24 +7,26 @@ export default class Matching extends React.Component {
         let months = [];
         for (let i = 0; i <= 24; i++) {
             months.push(
-                <text
-                    style={{
-                        color: 'white',
-                        fontWeight: 'regular',
-                        fontSize: '80px'
-                    }}>{i}
-                </text>)
+                <button>
+                    <text
+                        style={{
+                            color: 'white',
+                            fontWeight: 'regular',
+                            fontSize: '80px'
+                        }}>{i}
+                    </text>
+                </button>)
         }
         return (
             <MainContainer>
                 <IphoneFrame/>
                 <IphoneScreen>
-
                     <div style={{
                         zIndex: 1,
-                        backgroundColor:'red',
+                        backgroundColor: 'red',
                         flexDirection: 'row',
                         display: 'flex',
+                        alignItems: 'center',
                         position: 'absolute',
                         width: 302,
                         height: 250,
@@ -33,14 +35,15 @@ export default class Matching extends React.Component {
                         {months}
                     </div>
                     <div style={{
-                        backgroundColor:'blue',
+                        backgroundColor: 'blue',
                         zIndex: 1,
                         flexDirection: 'row',
+                        alignItems: 'center',
                         display: 'flex',
                         position: 'absolute',
                         marginTop: 290,
                         width: 302,
-                        height:250,
+                        height: 250,
                         overflow: "auto"
                     }}>
                         {months}
@@ -50,3 +53,4 @@ export default class Matching extends React.Component {
         )
     }
 }
+

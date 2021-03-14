@@ -8,7 +8,7 @@ export default class WhatDuration extends React.Component {
             <MainContainer>
                 <IphoneFrame/>
                 <IphoneScreen>
-                    <div style={{backgroundColor:'blue',margin:'10px'}}>
+                    <div style={{backgroundColor: 'blue', margin: '10px'}}>
                         <TextHeaderCush>What is the duration?</TextHeaderCush>
                     </div>
                     <div style={{position: 'absolute', top: '25%', left: '41%'}}>
