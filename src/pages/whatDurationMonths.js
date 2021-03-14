@@ -1,5 +1,5 @@
 import React, {useRef} from 'react';
-import {MainContainer, IphoneFrame, IphoneScreen,TextBaseCush} from "../components";
+import {MainContainer, IphoneFrame, IphoneScreen,TextBaseGothic} from "../components";
 import {SnapList, SnapItem, useDragToScroll} from "react-snaplist-carousel";
 
 
@@ -8,7 +8,7 @@ function createMonthsElements() {
     for (let i = 1; i <= 24; i++) {
         months.push(
             <SnapItem margin={{top: '10px', bottom: '10px'}} height="80px" snapAlign="center">
-                    <TextBaseCush
+                    <TextBaseGothic
                         style={{
                             color: 'white',
                             fontWeight: 'regular',
@@ -16,7 +16,7 @@ function createMonthsElements() {
                             // paddingBottom: i === 24 ? 395 : 0,
                             // paddingTop: i === 1 ? 40 : 0
                         }}>{i}
-                    </TextBaseCush>
+                    </TextBaseGothic>
             </SnapItem>)
     }
     return months
@@ -32,7 +32,7 @@ const WhatDurationMonths = () => {
         <MainContainer>
             <IphoneFrame/>
             <IphoneScreen style={{backgroundColor: '#161616'}}>
-                <text style={{
+                <TextBaseGothic style={{
                     position: 'absolute',
                     color: 'white',
                     marginLeft: 110,
@@ -40,7 +40,7 @@ const WhatDurationMonths = () => {
                     fontWeight: 'regular',
                     fontSize: '20px'
                 }}>months
-                </text>
+                </TextBaseGothic>
                 <SnapList width='85' direction="vertical" ref={snapList}>
                     {months}
                 </SnapList>

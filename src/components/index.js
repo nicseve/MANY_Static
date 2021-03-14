@@ -7,6 +7,7 @@ import IphoneFrame from "./iPhoneFrame";
 import ManyLogo from "./manyLogo";
 import TextHeaderCush from "./textHeaderCush";
 import IphoneScreen from "./iphoneScreen";
+import TextBaseGothic from "./textBaseGothic";
 
 export {
     NavigationButton,
@@ -17,5 +18,6 @@ export {
     IphoneFrame,
     ManyLogo,
     TextHeaderCush,
-    IphoneScreen
+    IphoneScreen,
+    TextBaseGothic
 }

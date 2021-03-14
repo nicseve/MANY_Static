@@ -39,8 +39,6 @@ const Matching = () => {
                           width='100%'>
                     {months}
                 </SnapList>
-
-
             </IphoneScreen>
         </MainContainer>
     )
