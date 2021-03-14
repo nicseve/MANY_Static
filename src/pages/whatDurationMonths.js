@@ -1,6 +1,5 @@
 import React from 'react';
 import {MainContainer, IphoneFrame, IphoneScreen} from "../components";
-import ScrollContainer from "react-indiana-drag-scroll";
 
 
 
@@ -44,11 +43,11 @@ export default class WhatDurationMonths extends React.Component {
                     {/*}}>*/}
                     {/*    {months}*/}
 
-                        <ScrollContainer style={{flexDirection:'column',display:'flex',marginLeft:12,marginTop:3,height:536,width:100,zIndex:20,position:'relative'}}
-                                         horizontal={false}
-                        >
-                            {months}
-                        </ScrollContainer>
+                        {/*<ScrollContainer style={{flexDirection:'column',display:'flex',marginLeft:12,marginTop:3,height:536,width:100,zIndex:20,position:'relative'}}*/}
+                        {/*                 horizontal={false}*/}
+                        {/*>*/}
+                        {/*    {months}*/}
+                        {/*</ScrollContainer>*/}
                 </IphoneScreen>
             </MainContainer>
         )
