@@ -4,6 +4,21 @@ import {
     SnapItem, SnapList, useDragToScroll,
 } from 'react-snaplist-carousel';
 
+
+//
+// export default class Matching extends React.Component{
+//     render(){
+//
+//         return(
+//
+//
+//         )
+//     }
+//
+//
+//
+// }
+
 const Matching = () => {
 
     const snapList = useRef(null);
@@ -31,10 +46,12 @@ const Matching = () => {
         <MainContainer>
             <IphoneFrame/>
             <IphoneScreen>
+                <div style={{marginTop:150}}>
                 <SnapList ref={snapList} direction="horizontal"
                           width='100%'>
                     {months}
                 </SnapList>
+                </div>
                 <SnapList ref={snapList1} direction="horizontal"
                           width='100%'>
                     {months}

@@ -1,5 +1,5 @@
 import React from "react";
-import {NavigationButton, IphoneScreen, ManyLogo, IphoneFrame, MainContainer, PageGrid} from "../components/index";
+import {NavigationButton, IphoneScreen, ManyLogo, IphoneFrame, MainContainer} from "../components/index";
 import {forwardButtonIcon} from '../assets/icons/index'
 
 
