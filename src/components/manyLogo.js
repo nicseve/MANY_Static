@@ -1,4 +1,4 @@
-import MANYLogoLarge from "../assets/logos/MANY_Large.png";
+import MANYLogoLarge from "../assets/many/MANY_Large.png";
 import React from "react";
 import styled from 'styled-components';
 
