@@ -209,7 +209,7 @@ const createMainUsers = (usersDict) => {
     let users = []
     usersDict.forEach((user => {
         users.push(
-            <SnapItem margin={{left: '23px', right: '23px'}} width="60%" height="80%" snapAlign="center">
+            <SnapItem margin={{left: '23px', right: '23px'}} width="55%" height="100%" snapAlign="center">
                 <Glyph path={user.glyph}/>
             </SnapItem>
         )

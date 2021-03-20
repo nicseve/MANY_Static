@@ -4,15 +4,15 @@ import {forwardButtonIcon} from '../assets/icons/index'
 
 
 export default class Splash extends React.Component {
-    render() {
-        const homeButtonDisplayComponent = <img src={forwardButtonIcon} alt="home button"/>
 
+    render() {
         return (
             <MainContainer>
                 <IphoneFrame/>
                 <IphoneScreen>
-                    <ManyLogo/>
-                    <NavigationButton path={'/home'} displayComponent={homeButtonDisplayComponent}/>
+                    <div style={{marginTop:'175px'}}>
+                        <NavigationButton height='80px' path={'/home'} displayComponent=<ManyLogo/>/>
+                    </div>
                 </IphoneScreen>
             </MainContainer>
         )
