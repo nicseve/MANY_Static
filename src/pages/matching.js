@@ -209,7 +209,7 @@ const createMainUsers = (usersDict) => {
     let users = []
     usersDict.forEach((user => {
         users.push(
-            <SnapItem margin={{left: '15px', right: '15px'}} width="50%" height="80%" snapAlign="center">
+            <SnapItem margin={{left: '23px', right: '23px'}} width="60%" height="80%" snapAlign="center">
                 <Glyph path={user.glyph}/>
             </SnapItem>
         )
@@ -233,13 +233,13 @@ return (
         <IphoneScreen>
             <div style={{zIndex:4,position:'fixed',marginTop:100}}>
                 <SnapList ref={snapList} direction="horizontal"
-                          width='306px' height='250px'>
+                          width='308px' height='250px'>
                     {users}
                 </SnapList>
             </div>
-            <div style={{zIndex:3,position:'fixed',marginTop:230}}>
+            <div style={{zIndex:3,position:'fixed',marginTop:210}}>
             <SnapList ref={snapList1} direction="horizontal"
-                      width='306px' height='250px'>
+                      width='308px' height='250px'>
                 {users}
             </SnapList>
             </div>
