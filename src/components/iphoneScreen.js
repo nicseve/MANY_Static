@@ -10,6 +10,7 @@ const IphoneScreen = styled.div`{
   margin: auto;
   background-color: #f8f8f8;
   z-index: 1;
+  user-select: none;
 }`
 
 export default IphoneScreen;
