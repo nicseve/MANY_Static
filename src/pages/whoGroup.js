@@ -1,6 +1,6 @@
 import React from 'react';
-import {TextField,Button,Input} from '@material-ui/core'
-import {IphoneFrame, MainContainer, PageGrid, TextBaseCush,IphoneScreen} from "../components/index";
+import {TextField, Button, Input} from '@material-ui/core'
+import {IphoneFrame, MainContainer, PageGrid, TextHeaderCush,TextBaseGothic, IphoneScreen} from "../components/index";
 
 
 function WhoGroup() {
@@ -12,31 +12,34 @@ function WhoGroup() {
         <MainContainer>
             <IphoneFrame/>
             <IphoneScreen>
-                <TextBaseCush>Who is in the group?</TextBaseCush>
-                <Input
-                    placeholder="Name of sponsor"
-                    color='black'
-                    disableUnderline={true}
-                    style={{width: '60%',fontFamily:'MSGothicThesis,sans-serif'}}
-                />
-                <Input
-                    placeholder="Website address"
-                    color='black'
-                    disableUnderline={true}
-                    style={{width: '60%',fontFamily:'MSGothicThesis,sans-serif'}}
-                />
-                <input
-                    accept="image/*"
-                    style={{display: "none"}}
-                    type="file"
-                    multiple
-                    id="contained-button-file"
-                />
-                <label htmlFor="contained-button-file">
-                    <Button variant="text" component="span">
-                        <text>Upload logo</text>
-                    </Button>
-                </label>
+                <div style={{margin: '15px'}}>
+                    <TextHeaderCush>Who is in the group?</TextHeaderCush>
+                </div>
+                <div style={{position: 'relative', top: '10px', left: '20px'}}>
+                    <Input
+                        placeholder="Name of sponsor"
+                        color='black'
+                        disableUnderline={true}
+                        style={{width: '60%', fontFamily: 'MSGothicThesis,sans-serif'}}
+                    />
+                    <Input
+                        placeholder="Website address"
+                        color='black'
+                        disableUnderline={true}
+                        style={{width: '60%', fontFamily: 'MSGothicThesis,sans-serif'}}
+                    />
+                    <input
+                        accept="image/*"
+                        style={{display: "none"}}
+                        type="file"
+                        id="contained-button-file"
+                    />
+                    <label htmlFor="contained-button-file">
+                        <Button variant="text" component="span">
+                            <TextBaseGothic>Upload logo</TextBaseGothic>
+                        </Button>
+                    </label>
+                </div>
             </IphoneScreen>
         </MainContainer>
     );
