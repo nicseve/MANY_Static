@@ -1,29 +1,29 @@
 import React from 'react';
-import {TextField} from '@material-ui/core'
-import {IphoneFrame, MainContainer, PageGrid, TextBaseCush} from "../components/index";
+import {TextField,Button,Input} from '@material-ui/core'
+import {IphoneFrame, MainContainer, PageGrid, TextBaseCush,IphoneScreen} from "../components/index";
 
 
 function WhoGroup() {
+
+    // const [sponsor, setSponser] = React.useState("");
+    // const [webAddress, setWebAddress] = React.useState("");
+
     return (
         <MainContainer>
             <IphoneFrame/>
-            <PageGrid
-                container
-                direction="column"
-                justify="center"
-                alignItems="center">
+            <IphoneScreen>
                 <TextBaseCush>Who is in the group?</TextBaseCush>
-                <TextField
-                    label="Sponsor Name"
+                <Input
+                    placeholder="Name of sponsor"
                     color='black'
-                    InputProps={{disableUnderline: true}}
-                    style={{width: '60%'}}
+                    disableUnderline={true}
+                    style={{width: '60%',fontFamily:'MSGothicThesis,sans-serif'}}
                 />
-                <TextField
-                    InputProps={{disableUnderline: true}}
-                    style={{width: '60%'}}
-                    label="Website Address"
+                <Input
+                    placeholder="Website address"
                     color='black'
+                    disableUnderline={true}
+                    style={{width: '60%',fontFamily:'MSGothicThesis,sans-serif'}}
                 />
                 <input
                     accept="image/*"
@@ -33,11 +33,11 @@ function WhoGroup() {
                     id="contained-button-file"
                 />
                 <label htmlFor="contained-button-file">
-                    {/*<Button className={classes.button} variant="text" component="span">*/}
-                    {/*    <text style={typographyStyles.manySansTextBase}>Upload logo</text>*/}
-                    {/*</Button>*/}
+                    <Button variant="text" component="span">
+                        <text>Upload logo</text>
+                    </Button>
                 </label>
-            </PageGrid>
+            </IphoneScreen>
         </MainContainer>
     );
 }
