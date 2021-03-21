@@ -1,7 +1,7 @@
 import React, {useRef} from 'react';
 import {MainContainer, IphoneFrame, IphoneScreen,Glyph} from "../components";
 import {
-    SnapItem, SnapList, useDragToScroll,
+    SnapItem, SnapList, useDragToScroll, useScroll,
 } from 'react-snaplist-carousel';
 
 
@@ -321,6 +321,15 @@ useDragToScroll({ref: snapList, disable: false});
 
 const snapList1 = useRef(null);
 useDragToScroll({ref: snapList1, disable: false});
+
+    const goToTopUser = useScroll({ref: snapList});
+    const goToBottomUser = useScroll({ref: snapList1});
+
+    React.useEffect(() => {
+        // scroll instantly on component did mount
+        goToTopUser(2, {animationEnabled: false});
+        goToBottomUser(2, {animationEnabled: false});
+    }, []);
 
 let usersTop = createUsers(mainUsers);
 let usersBottom = createUsers(mainUsers).reverse();
