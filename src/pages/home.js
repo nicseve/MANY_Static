@@ -13,7 +13,13 @@ export default class Home extends React.Component {
                 <IphoneFrame/>
                 <IphoneScreen>
                     {/*//TODO: Make logo a nav button to info page*/}
-                    <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '90px',marginTop:'200px'}}>
+                    <div style={{
+                        display: 'flex',
+                        flexDirection: 'column',
+                        alignItems: 'center',
+                        gap: '90px',
+                        marginTop: '200px'
+                    }}>
                         <ManyLogo/>
                         <div
                             style={{
@@ -28,7 +34,7 @@ export default class Home extends React.Component {
                                               displayComponent={signInButtonDisplayComponent}/>
                             <NavigationButton path={'/whoGroup'}
                                               displayComponent={createGroupButtonDisplayComponent}/>
-                            <NavigationButton path={'/'}
+                            <NavigationButton path={'/matching'}
                                               displayComponent={viewPrevGroupsButtonDisplayComponent}/>
                         </div>
                     </div>

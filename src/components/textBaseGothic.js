@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 
 //TODO: Import fonts and make size a prop.
-const TextBaseCush = styled.text`
+const TextBaseGothic = styled.text`
 {
   font-size: 24px;
-  font-weight: bold;
+  font-weight: normal;
   text-transform: initial;
-  font-family: 'CushingStdBook', serif;
+  font-family: 'MSGothicThesis', sans-serif;
   color: #151515;
   justify-content: center;
   -webkit-touch-callout: none; /* iOS Safari */
@@ -18,4 +18,4 @@ const TextBaseCush = styled.text`
 }
 `
 
-export default TextBaseCush
+export default TextBaseGothic

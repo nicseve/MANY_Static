@@ -5,7 +5,7 @@ import styled from "styled-components";
 
 // TODO: Add props to adjust height for inline nav buttons
 const StyledButton = styled(Button)`
-  height: 30px;
+  height: ${props => props.height ? props.height : '30px' };
   z-index: 1;
 `;
 
@@ -15,7 +15,7 @@ const NavigationButton = (props) => {
     const handleClick = () => history.push(props.path);
 
     return (
-        <StyledButton onClick={handleClick}>
+        <StyledButton height={props.height} onClick={handleClick}>
             {props.displayComponent}
         </StyledButton>
     );
