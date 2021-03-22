@@ -1,9 +1,8 @@
 import styled from 'styled-components';
 
-//TODO: Import fonts and make size a prop.
 const TextBaseGothic = styled.text`
 {
-  font-size: 24px;
+  font-size: ${props => props.fontSize ? props.fontSize : '24px'};
   font-weight: normal;
   text-transform: initial;
   font-family: 'MSGothicThesis', sans-serif;

@@ -36,7 +36,7 @@ function WhoGroup() {
                     />
                     <label htmlFor="contained-button-file">
                         <Button variant="text" component="span">
-                            <TextBaseGothic>Upload logo</TextBaseGothic>
+                            <TextBaseGothic fontSize={'18px'} style={{color:'lightgrey'}}>Upload logo</TextBaseGothic>
                         </Button>
                     </label>
                 </div>
