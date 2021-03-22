@@ -15,7 +15,7 @@ function WhoGroup() {
                 <div style={{margin: '15px'}}>
                     <TextHeaderCush>Who is in the group?</TextHeaderCush>
                 </div>
-                <div style={{position: 'relative', top: '10px', left: '20px'}}>
+                <div style={{display:'flex', flexDirection:'column',position: 'relative', top: '10px', left: '20px'}}>
                     <Input
                         placeholder="Name of sponsor"
                         color='black'
@@ -35,9 +35,9 @@ function WhoGroup() {
                         id="contained-button-file"
                     />
                     <label htmlFor="contained-button-file">
-                        <Button variant="text" component="span">
-                            <TextBaseGothic fontSize={'18px'} style={{color:'lightgrey'}}>Upload logo</TextBaseGothic>
-                        </Button>
+                        {/*<Button variant="text" component="span">*/}
+                            <TextBaseGothic fontSize={'18px'} style={{color:'#bdbdbd'}}>Upload logo</TextBaseGothic>
+                        {/*</Button>*/}
                     </label>
                 </div>
             </IphoneScreen>
