@@ -20,13 +20,13 @@ function WhoGroup() {
                         placeholder="Name of sponsor"
                         color='black'
                         disableUnderline={true}
-                        style={{width: '60%', fontFamily: 'MSGothicThesis,sans-serif'}}
+                        style={{width: '90%', fontFamily: 'MSGothicThesis,sans-serif'}}
                     />
                     <Input
                         placeholder="Website address"
                         color='black'
                         disableUnderline={true}
-                        style={{width: '60%', fontFamily: 'MSGothicThesis,sans-serif'}}
+                        style={{width: '90%', fontFamily: 'MSGothicThesis,sans-serif'}}
                     />
                     <input
                         accept="image/*"
