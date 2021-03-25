@@ -30,11 +30,11 @@ export default class Home extends React.Component {
                                 gap: '5px'
                             }}
                         >
-                            <NavigationButton path={'/'}
+                            <NavigationButton path={'/'} width={'90px'}
                                               displayComponent={signInButtonDisplayComponent}/>
-                            <NavigationButton path={'/whoGroup'}
+                            <NavigationButton path={'/whoGroup'} width={'170px'}
                                               displayComponent={createGroupButtonDisplayComponent}/>
-                            <NavigationButton path={'/matching'}
+                            <NavigationButton path={'/matching'} width={'240px'}
                                               displayComponent={viewPrevGroupsButtonDisplayComponent}/>
                         </div>
                     </div>

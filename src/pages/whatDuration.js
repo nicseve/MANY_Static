@@ -19,7 +19,8 @@ function WhatDuration() {
                     <TextHeaderCush>What is the duration?</TextHeaderCush>
                 </div>
                 <div style={{display: 'flex', flexDirection: 'row', position: 'relative', top: '10px', left: '10px'}}>
-                    <NavigationButton displayComponent={monthsIntElement} path={'/whatDurationMonths'} height={'80px'}/>
+                    <NavigationButton width={'95px'} displayComponent={monthsIntElement} path={'/whatDurationMonths'}
+                                      height={'80px'}/>
                     <div style={{marginTop: '50px'}}>
                         <TextBaseGothic fontSize='20px'> months </TextBaseGothic>
                     </div>
