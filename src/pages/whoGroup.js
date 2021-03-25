@@ -20,13 +20,13 @@ function WhoGroup() {
                         placeholder="Name of sponsor"
                         color='black'
                         disableUnderline={true}
-                        style={{width: '90%', fontFamily: 'MSGothicThesis,sans-serif'}}
+                        style={{width: '90%', fontFamily: 'MSGothicThesis,sans-serif',fontSize:'large'}}
                     />
                     <Input
                         placeholder="Website address"
                         color='black'
                         disableUnderline={true}
-                        style={{width: '90%', fontFamily: 'MSGothicThesis,sans-serif'}}
+                        style={{width: '90%', fontFamily: 'MSGothicThesis,sans-serif',fontSize:'large'}}
                     />
                     <input
                         accept="image/*"
@@ -36,7 +36,7 @@ function WhoGroup() {
                     />
                     <label htmlFor="contained-button-file">
                         {/*<Button variant="text" component="span">*/}
-                            <TextBaseGothic fontSize={'18px'} style={{color:'#bdbdbd'}}>Upload logo</TextBaseGothic>
+                            <TextBaseGothic fontSize={'19px'} style={{cursor:'pointer',color:'#bdbdbd'}}>Upload logo</TextBaseGothic>
                         {/*</Button>*/}
                     </label>
                 </div>

@@ -1,33 +1,28 @@
 import React from 'react';
-import {MainContainer, IphoneFrame, TextHeaderCush, IphoneScreen} from "../components";
+import {MainContainer, IphoneFrame, TextHeaderCush, IphoneScreen, TextBaseGothic} from "../components";
 
-
-export default class WhatDuration extends React.Component {
-    render() {
-        return (
-            <MainContainer>
-                <IphoneFrame/>
-                <IphoneScreen>
-                    <div style={{backgroundColor: 'blue', margin: '10px'}}>
-                        <TextHeaderCush>What is the duration?</TextHeaderCush>
+function WhatDuration() {
+    return (
+        <MainContainer>
+            <IphoneFrame/>
+            <IphoneScreen>
+                <div style={{margin: '15px'}}>
+                    <TextHeaderCush>What is the duration?</TextHeaderCush>
+                </div>
+                <div style={{display: 'flex', flexDirection: 'row', position: 'relative', top: '10px', left: '20px'}}>
+                    <TextBaseGothic fontSize='80px'>
+                        12
+                    </TextBaseGothic>
+                    <div style={{marginTop: '55px', marginLeft: '10px'}}>
+                        <TextBaseGothic fontSize='20px'>
+                            months
+                        </TextBaseGothic>
                     </div>
-                    <div style={{position: 'absolute', top: '25%', left: '41%'}}>
-                        <text
-                            style={{
-                                // backgroundColor: 'red',
-                                fontWeight: 'regular',
-                                fontSize: '80px'
-                            }}>12
-                        </text>
-                        <text style={{
-                            // backgroundColor: 'blue',
-                            fontWeight: 'regular',
-                            fontSize: '20px'
-                        }}>months
-                        </text>
-                    </div>
-                </IphoneScreen>
-            </MainContainer>
-        )
-    }
+                </div>
+            </IphoneScreen>
+        </MainContainer>
+    )
 }
+
+export default WhatDuration;
+
