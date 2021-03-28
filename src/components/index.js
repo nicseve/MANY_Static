@@ -9,6 +9,9 @@ import TextHeaderCush from "./textHeaderCush";
 import IphoneScreen from "./iphoneScreen";
 import TextBaseGothic from "./textBaseGothic";
 import Glyph from "./glyph";
+import LeftBlackButton from "./leftBlackButton";
+import RightBlackButton from "./rightBlackButton";
+import ManyHomeButton from "./manyHomeButton";
 
 export {
     NavigationButton,
@@ -21,5 +24,8 @@ export {
     TextHeaderCush,
     IphoneScreen,
     TextBaseGothic,
-    Glyph
+    Glyph,
+    LeftBlackButton,
+    RightBlackButton,
+    ManyHomeButton
 }

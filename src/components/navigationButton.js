@@ -9,7 +9,6 @@ const StyledButton = styled(Button)`
   z-index: 1;
 `;
 
-// Valid props: path,displayComponent,type(inline or block)
 const NavigationButton = (props) => {
     const history = useHistory();
     const handleClick = () => history.push(props.path);
