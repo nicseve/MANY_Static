@@ -1,5 +1,6 @@
 import React from 'react';
-import {NavigationButton, IphoneScreen, MainContainer, TextBaseCush, IphoneFrame, ManyLogo} from "../components/index";
+import {NavigationButton, IphoneScreen, MainContainer, TextBaseCush, IphoneFrame,ManyLogo} from "../components/index";
+import MANYLogoLarge from "../assets/many/MANY_Large.png";
 
 export default class Home extends React.Component {
 
@@ -18,9 +19,9 @@ export default class Home extends React.Component {
                         flexDirection: 'column',
                         alignItems: 'center',
                         gap: '90px',
-                        marginTop: '200px'
+                        marginTop: '210px'
                     }}>
-                        <ManyLogo/>
+                        <NavigationButton height='60px' width='170px' path={'/home'} displayComponent=<ManyLogo/>/>
                         <div
                             style={{
                                 display: 'flex',
