@@ -28,3 +28,10 @@ code {
     font-weight: normal;
 }
 
+@font-face {
+    font-family: "ManySans";
+    src: local("ManySans"),
+    url("./assets/fonts/MANY Sans.ttf") format("truetype");
+    font-weight: normal;
+}
+

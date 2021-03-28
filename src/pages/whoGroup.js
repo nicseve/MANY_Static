@@ -4,7 +4,7 @@ import {
     IphoneFrame,
     MainContainer,
     TextHeaderCush,
-    TextBaseGothic,
+    TextBaseManySans,
     IphoneScreen,
     LeftBlackButton,
     RightBlackButton,
@@ -30,13 +30,13 @@ function WhoGroup() {
                         placeholder="Name of sponsor"
                         color='black'
                         disableUnderline={true}
-                        style={{width: '90%', fontFamily: 'MSGothicThesis,sans-serif', fontSize: 'large'}}
+                        style={{width: '90%', fontFamily: 'MANYSans,sans-serif', fontSize: 'large'}}
                     />
                     <Input
                         placeholder="Website address"
                         color='black'
                         disableUnderline={true}
-                        style={{width: '90%', fontFamily: 'MSGothicThesis,sans-serif', fontSize: 'large'}}
+                        style={{width: '90%', fontFamily: 'MANYSans,sans-serif', fontSize: 'large'}}
                     />
                     <input
                         accept="image/*"
@@ -46,8 +46,8 @@ function WhoGroup() {
                     />
                     <label htmlFor="contained-button-file">
                         {/*<Button variant="text" component="span">*/}
-                        <TextBaseGothic fontSize={'19px'} style={{cursor: 'pointer', color: '#bdbdbd'}}>Upload
-                            logo</TextBaseGothic>
+                        <TextBaseManySans fontSize={'19px'} style={{cursor: 'pointer', color: '#bdbdbd'}}>Upload
+                            logo</TextBaseManySans>
                         {/*</Button>*/}
                     </label>
                 </div>

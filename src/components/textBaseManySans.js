@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 
-const TextBaseGothic = styled.text`
+const TextBaseManySans = styled.text`
 {
   font-size: ${props => props.fontSize ? props.fontSize : '24px'};
   font-weight: normal;
   text-transform: initial;
-  font-family: MSGothicThesis, sans-serif;
+  font-family: ManySans, sans-serif;
   color: #151515;
   justify-content: center;
   -webkit-touch-callout: none; /* iOS Safari */
@@ -17,4 +17,4 @@ const TextBaseGothic = styled.text`
 }
 `
 
-export default TextBaseGothic
+export default TextBaseManySans

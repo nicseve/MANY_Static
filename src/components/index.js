@@ -12,6 +12,7 @@ import Glyph from "./glyph";
 import LeftBlackButton from "./leftBlackButton";
 import RightBlackButton from "./rightBlackButton";
 import ManyHomeButton from "./manyHomeButton";
+import TextBaseManySans from "./textBaseManySans";
 
 export {
     NavigationButton,
@@ -27,5 +28,6 @@ export {
     Glyph,
     LeftBlackButton,
     RightBlackButton,
-    ManyHomeButton
+    ManyHomeButton,
+    TextBaseManySans
 }

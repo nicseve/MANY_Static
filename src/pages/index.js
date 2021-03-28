@@ -4,6 +4,7 @@ import WhoGroup from './whoGroup'
 import WhatDuration from "./whatDuration";
 import Matching from "./matching";
 import WhatDurationMonths from "./whatDurationMonths";
+import WhereGroup from "./whereGroup";
 
 export {
     Home,
@@ -11,5 +12,6 @@ export {
     WhoGroup,
     WhatDuration,
     WhatDurationMonths,
-    Matching
+    Matching,
+    WhereGroup
 }
