@@ -38,22 +38,22 @@ function WhereGroup() {
                         placeholder="Country"
                         color='black'
                         disableUnderline={true}
-                        style={{width: '90%', fontFamily: 'MANYSans,sans-serif', fontSize: 'large'}}
+                        style={{width: '90%', fontFamily: 'MANYSans', fontSize: 'large'}}
                     />
                     <Input
                         placeholder="City"
                         color='black'
                         disableUnderline={true}
-                        style={{width: '90%', fontFamily: 'MANYSans,sans-serif', fontSize: 'large'}}
+                        style={{width: '90%', fontFamily: 'MANYSans', fontSize: 'large'}}
                     />
                     <Input
                         placeholder="Postal code"
                         color='black'
                         disableUnderline={true}
-                        style={{width: '90%', fontFamily: 'MANYSans,sans-serif', fontSize: 'large'}}
+                        style={{width: '90%', fontFamily: 'MANYSans', fontSize: 'large'}}
                     />
                 </div>
-                <div style={{display: 'flex', flexDirection: 'row', marginTop: '355px', gap: '55px'}}>
+                <div style={{display: 'flex', flexDirection: 'row', marginTop: '252px', gap: '55px'}}>
                     <LeftBlackButton style={{height: '20px'}} path={'/whoGroup'}/>
                     <ManyHomeButton style={{height: '30px'}} path={'/home'}/>
                     <RightBlackButton style={{height: '20px'}} path={'/whereGroup'}/>
