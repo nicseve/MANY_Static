@@ -9,6 +9,7 @@ import {
     ManyHomeButton,
     TextBaseManySans
 } from "../components/index";
+import {Input} from "@material-ui/core";
 
 function WhereGroup() {
     return (
@@ -19,11 +20,38 @@ function WhereGroup() {
                     <TextHeaderCush>Where is the group?</TextHeaderCush>
                 </div>
                 <div
-                    style={{display: 'flex', flexDirection: 'column', position: 'relative', top: '10px', left: '45px',gap:'5px'}}>
+                    style={{
+                        display: 'flex',
+                        flexDirection: 'column',
+                        position: 'relative',
+                        top: '10px',
+                        left: '45px',
+                        gap: '5px'
+                    }}>
                     <TextBaseManySans fontSize='20px'>Located in</TextBaseManySans>
                     <TextBaseManySans fontSize='20px'>Traveling from</TextBaseManySans>
                     <TextBaseManySans fontSize='20px'>Sharing from</TextBaseManySans>
-
+                </div>
+                <div
+                    style={{display: 'flex', flexDirection: 'column', position: 'relative', top: '20px', left: '20px'}}>
+                    <Input
+                        placeholder="Country"
+                        color='black'
+                        disableUnderline={true}
+                        style={{width: '90%', fontFamily: 'MANYSans,sans-serif', fontSize: 'large'}}
+                    />
+                    <Input
+                        placeholder="City"
+                        color='black'
+                        disableUnderline={true}
+                        style={{width: '90%', fontFamily: 'MANYSans,sans-serif', fontSize: 'large'}}
+                    />
+                    <Input
+                        placeholder="Postal code"
+                        color='black'
+                        disableUnderline={true}
+                        style={{width: '90%', fontFamily: 'MANYSans,sans-serif', fontSize: 'large'}}
+                    />
                 </div>
                 <div style={{display: 'flex', flexDirection: 'row', marginTop: '355px', gap: '55px'}}>
                     <LeftBlackButton style={{height: '20px'}} path={'/whoGroup'}/>
