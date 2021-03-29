@@ -51,10 +51,10 @@ function WhoGroup() {
                         {/*</Button>*/}
                     </label>
                 </div>
-                <div style={{display:'flex', flexDirection:'row',marginTop:'335px',gap:'55px'}} >
-                    <LeftBlackButton style={{height:'20px'}} path={'/home'}/>
-                    <ManyHomeButton style={{height:'30px'}} path={'/home'}/>
-                    <RightBlackButton style={{height:'20px'}} path={'/whereGroup'}/>
+                <div style={{display: 'flex', flexDirection: 'row', position: 'relative', top: '335px', gap: '55px'}}>
+                    <LeftBlackButton style={{height: '20px'}} path={'/home'}/>
+                    <ManyHomeButton style={{height: '30px'}} path={'/home'}/>
+                    <RightBlackButton style={{height: '20px'}} path={'/whereGroup'}/>
                 </div>
             </IphoneScreen>
         </MainContainer>
