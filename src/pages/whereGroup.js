@@ -10,8 +10,12 @@ import {
     TextBaseManySans
 } from "../components/index";
 import {Input} from "@material-ui/core";
+import { useLocation } from "react-router-dom";
 
 function WhereGroup() {
+    const location = useLocation();
+    const [navProps,setNavProps] = React.useState(location.navProps);
+
     return (
         <MainContainer>
             <IphoneFrame/>
@@ -35,7 +39,7 @@ function WhereGroup() {
                 <div
                     style={{display: 'flex', flexDirection: 'column', position: 'relative', top: '20px', left: '20px'}}>
                     <Input
-                        placeholder="Country"
+                        placeholder='Country'
                         color='black'
                         disableUnderline={true}
                         style={{width: '90%', fontFamily: 'MANYSans', fontSize: 'large'}}

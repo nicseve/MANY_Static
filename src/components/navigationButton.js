@@ -11,7 +11,10 @@ const StyledButton = styled(Button)`
 
 const NavigationButton = (props) => {
     const history = useHistory();
-    const handleClick = () => history.push(props.path);
+    const handleClick = () => history.push({
+        pathname: props.path,
+        navProps: props.navProps,
+    });
 
     return (
         <StyledButton height={props.height} width={props.width} onClick={handleClick}>

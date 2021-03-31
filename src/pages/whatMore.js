@@ -35,8 +35,8 @@ function WhatMore() {
                     />
                 </div>
                 {/*Bottom button div position is absolute to account for changing number of input text rows*/}
-                <div style={{display: 'flex', flexDirection: 'row', position: 'absolute', top: '690px',right:235, gap: '30px'}}>
-                    <LeftBlackButton style={{height: '20px'}} path={'/whereGroup'}/>
+                <div style={{display: 'flex', flexDirection: 'row', position: 'sticky', top: '690px',right:235, gap: '30px'}}>
+                    <LeftBlackButton style={{height: '20px'}} path={'/whereGroup'} navProps={usersText}/>
                     <ManyHomeButton style={{height: '30px'}} path={'/home'}/>
                     <RightBlackButton style={{height: '20px'}} path={'/matching'}/>
                 </div>

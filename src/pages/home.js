@@ -1,6 +1,5 @@
 import React from 'react';
 import {NavigationButton, IphoneScreen, MainContainer, TextBaseCush, IphoneFrame,ManyLogo} from "../components/index";
-import MANYLogoLarge from "../assets/many/MANY_Large.png";
 
 export default class Home extends React.Component {
 
