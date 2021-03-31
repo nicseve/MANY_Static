@@ -5,10 +5,11 @@ import {
     TextHeaderCush,
     IphoneScreen,
     TextBaseGothic,
-    NavigationButton
+    NavigationButton, LeftBlackButton, ManyHomeButton, RightBlackButton
 } from "../components";
 
 function WhatDuration() {
+
     const monthsIntElement = <TextBaseGothic fontSize='80px'> 12 </TextBaseGothic>
 
     return (
@@ -24,6 +25,11 @@ function WhatDuration() {
                     <div style={{marginTop: '50px'}}>
                         <TextBaseGothic fontSize='20px'> months </TextBaseGothic>
                     </div>
+                </div>
+                <div style={{display: 'flex', flexDirection: 'row', position: 'relative', top: '345px', gap: '55px'}}>
+                    <LeftBlackButton style={{height: '20px'}} path={'/whoGroup'}/>
+                    <ManyHomeButton style={{height: '30px'}} path={'/home'}/>
+                    <RightBlackButton style={{height: '20px'}} path={'/whatMore'}/>
                 </div>
             </IphoneScreen>
         </MainContainer>

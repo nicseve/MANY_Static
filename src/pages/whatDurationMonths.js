@@ -1,6 +1,7 @@
 import React, {useRef} from 'react';
 import {MainContainer, IphoneFrame, IphoneScreen, TextBaseGothic} from "../components";
 import {SnapList, SnapItem, useDragToScroll} from "react-snaplist-carousel";
+import {useLocation} from "react-router-dom";
 
 
 function createMonthsElements() {
@@ -22,9 +23,12 @@ function createMonthsElements() {
     return months
 }
 
-//TODO: Adjust months text margin left when month int is not double digit (0-9)
+//TODO: Dynamically adjust months text margin left when month int is not double digit (0-9)
 
 const WhatDurationMonths = () => {
+    const location = useLocation();
+    const [navProps,setNavProps] = React.useState(location.navProps);
+
     const snapList = useRef(null);
     useDragToScroll({ref: snapList, disable: false});
 
