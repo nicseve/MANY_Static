@@ -35,7 +35,14 @@ function WhatMore() {
                     />
                 </div>
                 {/*Bottom button div position is absolute to account for changing number of input text rows*/}
-                <div style={{display: 'flex', flexDirection: 'row', position: 'sticky', top: '690px',right:235, gap: '53px'}}>
+                <div style={{
+                    display: 'flex',
+                    flexDirection: 'row',
+                    position: 'sticky',
+                    top: '690px',
+                    right: 235,
+                    gap: '53px'
+                }}>
                     <LeftBlackButton style={{height: '20px'}} path={'/whatDuration'} navProps={usersText}/>
                     <ManyHomeButton style={{height: '30px'}} path={'/home'}/>
                     <RightBlackButton style={{height: '20px'}} path={'/matching'}/>

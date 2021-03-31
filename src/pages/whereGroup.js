@@ -10,11 +10,11 @@ import {
     TextBaseManySans
 } from "../components/index";
 import {Input} from "@material-ui/core";
-import { useLocation } from "react-router-dom";
+import {useLocation} from "react-router-dom";
 
 function WhereGroup() {
     const location = useLocation();
-    const [navProps,setNavProps] = React.useState(location.navProps);
+    const [navProps, setNavProps] = React.useState(location.navProps);
 
     return (
         <MainContainer>

@@ -1,5 +1,11 @@
 import React, {useRef} from 'react';
-import {MainContainer, IphoneFrame, IphoneScreen, TextBaseGothic} from "../components";
+import {
+    MainContainer,
+    IphoneFrame,
+    IphoneScreen,
+    TextBaseGothic,
+    RightWhiteButton
+} from "../components";
 import {SnapList, SnapItem, useDragToScroll} from "react-snaplist-carousel";
 import {useLocation} from "react-router-dom";
 
@@ -27,7 +33,7 @@ function createMonthsElements() {
 
 const WhatDurationMonths = () => {
     const location = useLocation();
-    const [navProps,setNavProps] = React.useState(location.navProps);
+    const [navProps, setNavProps] = React.useState(location.navProps);
 
     const snapList = useRef(null);
     useDragToScroll({ref: snapList, disable: false});
@@ -47,11 +53,13 @@ const WhatDurationMonths = () => {
                     fontSize: '20px'
                 }}>months
                 </TextBaseGothic>
-                <div style={{marginLeft:'20px',display:'flex',flexDirection:'row',alignItems:'center'}}>
+                <div style={{marginLeft: '20px', display: 'flex', flexDirection: 'row', alignItems: 'center'}}>
                     <SnapList width='85' height='538px' direction="vertical" ref={snapList}>
                         {months}
                     </SnapList>
                 </div>
+                <RightWhiteButton style={{position: 'relative', left: '230px', bottom: '50px', height: '20px'}}
+                                  path={'/whatDuration'}/>
             </IphoneScreen>
         </MainContainer>
     )
