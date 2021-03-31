@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {Home, Splash, WhoGroup, WhatDuration,WhatDurationMonths,Matching,WhereGroup} from './pages/index.js'
+import {Home, Splash, WhoGroup, WhatDuration,WhatDurationMonths,Matching,WhereGroup,WhatMore} from './pages/index.js'
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 function App() {
@@ -25,6 +25,9 @@ function App() {
                     </Route>
                     <Route path="/whatDurationMonths">
                         <WhatDurationMonths/>
+                    </Route>
+                    <Route path="/whatMore">
+                        <WhatMore/>
                     </Route>
                     <Route path="/matching">
                         <Matching/>

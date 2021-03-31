@@ -56,7 +56,7 @@ function WhereGroup() {
                 <div style={{display: 'flex', flexDirection: 'row', position: 'relative', top: '252px', gap: '55px'}}>
                     <LeftBlackButton style={{height: '20px'}} path={'/whoGroup'}/>
                     <ManyHomeButton style={{height: '30px'}} path={'/home'}/>
-                    <RightBlackButton style={{height: '20px'}} path={'/whereGroup'}/>
+                    <RightBlackButton style={{height: '20px'}} path={'/whatMore'}/>
                 </div>
             </IphoneScreen>
         </MainContainer>
