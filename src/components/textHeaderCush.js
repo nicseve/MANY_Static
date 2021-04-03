@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const TextHeaderCush = styled.text`
 {
   font-size: 29px;
-  font-weight: bold;
+  font-weight: normal;
   text-transform: initial;
   font-family: 'CushingStdBook', serif;
   color: #151515;

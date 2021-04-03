@@ -4,8 +4,8 @@ import styled from 'styled-components';
 
 const ManyLogoStyled = styled.img`
 {
-  max-width: 70%;
-  max-height: 40%;
+  max-width: 100%;
+  max-height: 100%;
 }
 `
 

@@ -4,6 +4,10 @@ import WhoGroup from './whoGroup'
 import WhatDuration from "./whatDuration";
 import Matching from "./matching";
 import WhatDurationMonths from "./whatDurationMonths";
+import WhereGroup from "./whereGroup";
+import WhatMore from "./whatMore";
+import WhatExchange from "./whatExchange";
+import WhatGlyph from "./whatGlyph";
 
 export {
     Home,
@@ -11,5 +15,9 @@ export {
     WhoGroup,
     WhatDuration,
     WhatDurationMonths,
-    Matching
+    Matching,
+    WhereGroup,
+    WhatMore,
+    WhatExchange,
+    WhatGlyph
 }

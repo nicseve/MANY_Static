@@ -10,8 +10,8 @@ export default class Splash extends React.Component {
             <MainContainer>
                 <IphoneFrame/>
                 <IphoneScreen>
-                    <div style={{marginTop:'175px'}}>
-                        <NavigationButton height='80px' path={'/home'} displayComponent=<ManyLogo/>/>
+                    <div style={{marginTop:'210px',marginLeft:'68px'}}>
+                        <NavigationButton height='60px' width='170px' path={'/home'} displayComponent=<ManyLogo/>/>
                     </div>
                 </IphoneScreen>
             </MainContainer>

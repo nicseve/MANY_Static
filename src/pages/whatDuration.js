@@ -1,33 +1,40 @@
 import React from 'react';
-import {MainContainer, IphoneFrame, TextHeaderCush, IphoneScreen} from "../components";
+import {
+    MainContainer,
+    IphoneFrame,
+    TextHeaderCush,
+    IphoneScreen,
+    TextBaseGothic,
+    NavigationButton, LeftBlackButton, ManyHomeButton, RightBlackButton
+} from "../components";
 
+function WhatDuration() {
 
-export default class WhatDuration extends React.Component {
-    render() {
-        return (
-            <MainContainer>
-                <IphoneFrame/>
-                <IphoneScreen>
-                    <div style={{backgroundColor: 'blue', margin: '10px'}}>
-                        <TextHeaderCush>What is the duration?</TextHeaderCush>
+    const monthsIntElement = <TextBaseGothic fontSize='80px'> 12 </TextBaseGothic>
+
+    return (
+        <MainContainer>
+            <IphoneFrame/>
+            <IphoneScreen>
+                <div style={{margin: '15px'}}>
+                    <TextHeaderCush>What is the duration?</TextHeaderCush>
+                </div>
+                <div style={{display: 'flex', flexDirection: 'row', position: 'relative', top: '10px', left: '10px'}}>
+                    <NavigationButton width={'95px'} displayComponent={monthsIntElement} path={'/whatDurationMonths'}
+                                      height={'80px'}/>
+                    <div style={{marginTop: '50px'}}>
+                        <TextBaseGothic fontSize='20px'> months </TextBaseGothic>
                     </div>
-                    <div style={{position: 'absolute', top: '25%', left: '41%'}}>
-                        <text
-                            style={{
-                                // backgroundColor: 'red',
-                                fontWeight: 'regular',
-                                fontSize: '80px'
-                            }}>12
-                        </text>
-                        <text style={{
-                            // backgroundColor: 'blue',
-                            fontWeight: 'regular',
-                            fontSize: '20px'
-                        }}>months
-                        </text>
-                    </div>
-                </IphoneScreen>
-            </MainContainer>
-        )
-    }
+                </div>
+                <div style={{display: 'flex', flexDirection: 'row', position: 'relative', top: '345px', gap: '55px'}}>
+                    <LeftBlackButton style={{height: '20px'}} path={'/whatExchange'}/>
+                    <ManyHomeButton style={{height: '30px'}} path={'/home'}/>
+                    <RightBlackButton style={{height: '20px'}} path={'/whatGlyph'}/>
+                </div>
+            </IphoneScreen>
+        </MainContainer>
+    )
 }
+
+export default WhatDuration;
+

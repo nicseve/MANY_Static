@@ -301,7 +301,6 @@ const secondaryUsers = [
     },
 ];
 
-
 const createUsers = (usersDict) => {
     let users = []
     usersDict.forEach((user => {
