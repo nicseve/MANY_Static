@@ -34,7 +34,7 @@ function WhatGlyph() {
                 <div style={{display: 'flex', flexDirection: 'row', position: 'relative', top: '404px', gap: '55px'}}>
                     <LeftBlackButton style={{height: '20px'}} path={'/whatDuration'}/>
                     <ManyHomeButton style={{height: '30px'}} path={'/home'}/>
-                    <RightBlackButton style={{height: '20px'}} path={'/whatGlyph'}/>
+                    <RightBlackButton style={{height: '20px'}} path={'/matching'}/>
                 </div>
             </IphoneScreen>
         </MainContainer>
