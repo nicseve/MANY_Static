@@ -27,9 +27,9 @@ function WhatDuration() {
                     </div>
                 </div>
                 <div style={{display: 'flex', flexDirection: 'row', position: 'relative', top: '345px', gap: '55px'}}>
-                    <LeftBlackButton style={{height: '20px'}} path={'/whereGroup'}/>
+                    <LeftBlackButton style={{height: '20px'}} path={'/whatExchange'}/>
                     <ManyHomeButton style={{height: '30px'}} path={'/home'}/>
-                    <RightBlackButton style={{height: '20px'}} path={'/whatMore'}/>
+                    <RightBlackButton style={{height: '20px'}} path={'/whatGlyph'}/>
                 </div>
             </IphoneScreen>
         </MainContainer>
