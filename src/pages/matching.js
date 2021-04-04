@@ -434,12 +434,12 @@ const createUsers = (usersDict) => {
                     justifyContent: 'center'
                 }}>
                     {/*<img style={{*/}
-                    {/*    objectFit: 'scale-down',*/}
-                    {/*    width: '160px',*/}
+                    {/*    objectFit: 'contain',*/}
+                    {/*    height: '80px',*/}
                     {/*    position: 'relative',*/}
                     {/*    left: 45,*/}
-                    {/*    top: 45,*/}
-                    {/*    backgroundColor: 'red'*/}
+                    {/*    top: 65,*/}
+                    {/*    // backgroundColor: 'red'*/}
                     {/*}}*/}
                     {/*     src={user.location} alt={'User location'}/>*/}
 
@@ -448,12 +448,22 @@ const createUsers = (usersDict) => {
                         height: '70px',
                         width: '80px',
                         position: 'relative',
-                        right: 105,
+                        right: 100,
                         bottom:20,
                     }}
                          src={user.logo} alt={'User logo'}/>
-                    <TextBaseManySans style={{position:'relative',right:80}}fontSize={'80px'} >12</TextBaseManySans>
-                    <Glyph style={{position:'relative'}} path={user.glyph}/>
+                    <TextBaseManySans style={{position:'relative',right:80,bottom:15}} fontSize={'80px'} >12</TextBaseManySans>
+                    <img style={{
+                        objectFit: 'scale-down',
+                        height: '40%',
+                        width: '50%',
+                        position: 'relative',
+                        left: 10,
+                        bottom:16,
+                        // backgroundColor:'green'
+                    }}
+                         src={user.glyph} alt={'User glyph'}/>
+                    {/*<Glyph path={user.glyph}/>*/}
                 </div>
             </SnapItem>
         )
