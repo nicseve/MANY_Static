@@ -433,15 +433,15 @@ const createUsers = (usersDict) => {
                     alignItems: 'center',
                     justifyContent: 'center'
                 }}>
-                    <img style={{
-                        objectFit: 'scale-down',
-                        width: '160px',
-                        position: 'relative',
-                        left: 45,
-                        top: 45,
-                        backgroundColor: 'red'
-                    }}
-                         src={user.location} alt={'User location'}/>
+                    {/*<img style={{*/}
+                    {/*    objectFit: 'scale-down',*/}
+                    {/*    width: '160px',*/}
+                    {/*    position: 'relative',*/}
+                    {/*    left: 45,*/}
+                    {/*    top: 45,*/}
+                    {/*    backgroundColor: 'red'*/}
+                    {/*}}*/}
+                    {/*     src={user.location} alt={'User location'}/>*/}
 
                     <img style={{
                         objectFit: 'scale-down',
@@ -487,7 +487,7 @@ const Matching = () => {
             <IphoneScreen>
                 <div style={{zIndex: 4, position: 'fixed', height: 300}}>
                     <SnapList ref={snapList} direction="horizontal"
-                              width='308px' height='300px'>
+                              width='308px' height='370px'>
                         {usersTop}
                     </SnapList>
                 </div>

@@ -2,9 +2,8 @@ import styled from 'styled-components'
 
 
 const StyledGlyph = styled.img`{
-  height: 50%;
-  width: 60%;
-  background-color: aqua;
+  height: 40%;
+  width: 50%;
   object-fit: scale-down;
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none; /* Safari */
