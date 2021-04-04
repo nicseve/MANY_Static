@@ -433,33 +433,31 @@ const createUsers = (usersDict) => {
                     alignItems: 'center',
                     justifyContent: 'center'
                 }}>
-                    {/*<img style={{*/}
-                    {/*    objectFit: 'contain',*/}
-                    {/*    height: '80px',*/}
-                    {/*    position: 'relative',*/}
-                    {/*    left: 45,*/}
-                    {/*    top: 65,*/}
-                    {/*    // backgroundColor: 'red'*/}
-                    {/*}}*/}
-                    {/*     src={user.location} alt={'User location'}/>*/}
+                    <img style={{
+                        objectFit: 'contain',
+                        height: '105px',
+                        position: 'relative',
+                        left: 55,
+                        top: 65,
+                    }}
+                         src={user.location} alt={'User location'}/>
 
                     <img style={{
                         objectFit: 'scale-down',
                         height: '70px',
-                        width: '80px',
+                        width: '100px',
                         position: 'relative',
-                        right: 100,
-                        bottom:20,
+                        right: 70,
+                        bottom:75,
                     }}
                          src={user.logo} alt={'User logo'}/>
-                    <TextBaseManySans style={{position:'relative',right:80,bottom:15}} fontSize={'80px'} >12</TextBaseManySans>
+                    <TextBaseManySans style={{position:'relative',right:80,bottom:50}} fontSize={'80px'} >12</TextBaseManySans>
                     <img style={{
                         objectFit: 'scale-down',
                         height: '40%',
                         width: '50%',
                         position: 'relative',
-                        left: 10,
-                        bottom:16,
+                        bottom:40,
                         // backgroundColor:'green'
                     }}
                          src={user.glyph} alt={'User glyph'}/>
