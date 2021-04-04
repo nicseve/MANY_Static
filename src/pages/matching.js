@@ -426,7 +426,6 @@ const createUsers = (usersDict) => {
         users.push(
             <SnapItem margin={{right: '73px'}} width="100%" height="100%" snapAlign="center">
                 <div style={{
-                    position: 'relative',
                     width: '100%',
                     height: '100%',
                     display: 'flex',
@@ -434,7 +433,9 @@ const createUsers = (usersDict) => {
                     alignItems:'center',
                     justifyContent:'center'
                 }}>
-                    <img style={{objectFit: 'scale-down', height: '70px', width: '80px',}}
+                    <img style={{objectFit: 'scale-down', width: '160px',position:'relative',left:45,top:45}}
+                         src={user.location} alt={'User location'}/>
+                    <img style={{objectFit: 'scale-down', height: '70px', width: '80px',position:'relative',right:105}}
                          src={user.logo} alt={'User logo'}/>
                     <Glyph path={user.glyph}/>
                 </div>
