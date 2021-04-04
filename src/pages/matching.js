@@ -1,5 +1,5 @@
 import React, {useRef} from 'react';
-import {MainContainer, IphoneFrame, IphoneScreen, Glyph} from "../components";
+import {MainContainer, IphoneFrame, IphoneScreen, Glyph, TextBaseManySans} from "../components";
 import {
     SnapItem, SnapList, useDragToScroll, useScroll,
 } from 'react-snaplist-carousel';
@@ -430,14 +430,30 @@ const createUsers = (usersDict) => {
                     height: '100%',
                     display: 'flex',
                     flexDirection: 'column',
-                    alignItems:'center',
-                    justifyContent:'center'
+                    alignItems: 'center',
+                    justifyContent: 'center'
                 }}>
-                    <img style={{objectFit: 'scale-down', width: '160px',position:'relative',left:45,top:45}}
+                    <img style={{
+                        objectFit: 'scale-down',
+                        width: '160px',
+                        position: 'relative',
+                        left: 45,
+                        top: 45,
+                        backgroundColor: 'red'
+                    }}
                          src={user.location} alt={'User location'}/>
-                    <img style={{objectFit: 'scale-down', height: '70px', width: '80px',position:'relative',right:105}}
+
+                    <img style={{
+                        objectFit: 'scale-down',
+                        height: '70px',
+                        width: '80px',
+                        position: 'relative',
+                        right: 105,
+                        bottom:20,
+                    }}
                          src={user.logo} alt={'User logo'}/>
-                    <Glyph path={user.glyph}/>
+                    <TextBaseManySans style={{position:'relative',right:80}}fontSize={'80px'} >12</TextBaseManySans>
+                    <Glyph style={{position:'relative'}} path={user.glyph}/>
                 </div>
             </SnapItem>
         )
