@@ -1,5 +1,13 @@
 import React, {useRef} from 'react';
-import {MainContainer, IphoneFrame, IphoneScreen, Glyph, TextBaseManySans} from "../components";
+import {
+    MainContainer,
+    IphoneFrame,
+    IphoneScreen,
+    Glyph,
+    TextBaseManySans,
+    LeftBlackButton,
+    ManyHomeButton, RightBlackButton
+} from "../components";
 import {
     SnapItem, SnapList, useDragToScroll, useScroll,
 } from 'react-snaplist-carousel';
@@ -440,7 +448,7 @@ const createMatches = (userId) => {
                          src={match.glyph} alt={'User glyph'}/>
                     <img style={{
                         objectFit: 'contain',
-                        height: '105px',
+                        height: '95px',
                         position: 'relative',
                         right: 25,
                         top: 85,
@@ -501,6 +509,11 @@ const Matching = () => {
                               width='308px' height='270px'>
                         {usersBottom}
                     </SnapList>
+                </div>
+                <div style={{display: 'flex', flexDirection: 'row', position: 'relative', top: '489px',left:'108px', gap: '30px'}}>
+                    {/*<LeftBlackButton style={{height: '20px'}} path={'/whatGlyph'}/>*/}
+                    <ManyHomeButton style={{height: '30px'}} path={'/home'}/>
+                    <RightBlackButton style={{height: '20px'}} path={'/matching'}/>
                 </div>
             </IphoneScreen>
         </MainContainer>
