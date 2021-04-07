@@ -4,7 +4,6 @@ import {
     SnapItem, SnapList, useDragToScroll, useScroll,
 } from 'react-snaplist-carousel';
 
-
 const mainUsers = [
     {
         z: 0,
@@ -227,7 +226,7 @@ const allMatches = {
     // {id:5,month:6,location:require("../Locations/Australia.png").default, glyph: require("../assets/glyphs/0038_A.png").default,logo:require("../assets/logos/0038_AUS_BW.png").default,logo1:require("../assets/logos/0038_NHL_.png").default},
     {id:6,month:6,location:require("../assets/continents/0063_con.png").default, glyph: require("../assets/glyphs/0063_A.png").default,logo:require("../assets/logos/0063_Sastak_BW.png").default},
     {id:7,month:24,location:require("../assets/continents/0024_con.png").default, glyph: require("../assets/glyphs/0024_B.png").default,logo:require("../assets/logos/0024_Detroit__BW.png").default,logo1:require("../assets/logos/0024_DGE_BW.png").default},
-    {id:8,month:6,location:require("../assets/continents/0063_con.png").default, glyph: require("../assets/glyphs/0063_A.png").default,logo:require("../assets/logos/0063_Sastak_BW.png").default},
+    // {id:8,month:6,location:require("../assets/continents/0063_con.png").default, glyph: require("../assets/glyphs/0063_A.png").default,logo:require("../assets/logos/0063_Sastak_BW.png").default},
     {id:9,month:24,location:require("../assets/continents/0072_con.png").default, glyph: require("../assets/glyphs/0072_A.png").default,logo:require("../assets/logos/0072_WPC_BW.png").default},
     {id:10,month:12,location:require("../assets/continents/0092_con.png").default, glyph: require("../assets/glyphs/0092_A.png").default,logo:require("../assets/logos/0092_EARTNNET_BW.png").default,logo1:require("../assets/logos/0092_MESA_BW.png").default},
 ],
@@ -368,7 +367,7 @@ u18:[
 }
 
 const createUsers = (usersDict) => {
-     let users = []
+    let users = []
     usersDict.forEach((user => {
         users.push(
             <SnapItem margin={{right: '73px'}} width="100%" height="100%" snapAlign="center">
@@ -391,7 +390,7 @@ const createUsers = (usersDict) => {
 
                     <img style={{
                         objectFit: 'scale-down',
-                        height: '70px',
+                        height: '65px',
                         width: '100px',
                         position: 'relative',
                         right: 70,
@@ -417,8 +416,8 @@ const createUsers = (usersDict) => {
 }
 
 const createMatches = (userId) => {
-     let matchesData = allMatches[userId];
-     let matchesRenderReady = []
+    let matchesData = allMatches[userId];
+    let matchesRenderReady = []
     matchesData.forEach((match => {
         matchesRenderReady.push(
             <SnapItem margin={{right: '73px'}} width="100%" height="100%" snapAlign="center">
@@ -435,7 +434,7 @@ const createMatches = (userId) => {
                         height: '40%',
                         width: '50%',
                         position: 'relative',
-                        top:60,
+                        top:45,
                         // backgroundColor:'green'
                     }}
                          src={match.glyph} alt={'User glyph'}/>
@@ -443,21 +442,21 @@ const createMatches = (userId) => {
                         objectFit: 'contain',
                         height: '105px',
                         position: 'relative',
-                        right: 70,
-                        top: 65,
+                        right: 25,
+                        top: 85,
                     }}
                          src={match.location} alt={'User location'}/>
 
                     <img style={{
                         objectFit: 'scale-down',
-                        height: '70px',
-                        width: '100px',
+                        height: '55px',
+                        width: '80px',
                         position: 'relative',
-                        left: 90,
-                        bottom:95,
+                        right: 110,
+                        bottom:75,
                     }}
                          src={match.logo} alt={'User logo'}/>
-                    <TextBaseManySans style={{position:'relative',left:80,bottom:50}} fontSize={'80px'} >{match.month}</TextBaseManySans>
+                    <TextBaseManySans style={{position:'relative',left:90,bottom:100}} fontSize={'80px'} >{match.month}</TextBaseManySans>
 
                     {/*<Glyph path={user.glyph}/>*/}
                 </div>
@@ -485,7 +484,7 @@ const Matching = () => {
     }, []);
 
      let usersTop = createUsers(mainUsers);
-     let usersBottom = createMatches("u20");
+     let usersBottom = createMatches("u5");
 
     return (
         <MainContainer>
@@ -509,4 +508,3 @@ const Matching = () => {
 }
 
 export default Matching;
-
