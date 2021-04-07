@@ -205,223 +205,170 @@ const mainUsers = [
     },
 ];
 
-
-// let u6 = [
-//     {id:0,month:36,location:require("../Continents/0021_con.png"), name: require("../Glyphs/0021_B.png"),logo:require("../Logos/0021_Alexandria_BW.png"),logo1:require("../Logos/0021_ECFMG_BW.png")},
-//     {id:1,month:36,location:require("../Continents/0023_con.png"), name: require("../Glyphs/0023_B.png"),logo:require("../Logos/0023_Beaumont_BW.png"),logo1:require("../Logos/0023_ECFMG_BW.png")},
-//     {id:2,month:6,location:require("../Continents/0055_con.png"), name: require("../Glyphs/0055_B.png"),logo:require("../Logos/0055_CSU_BW.png"),logo1:require("../Logos/0055_SAS_BW.png")},
-// ];
-// let u1 = [
-//     {id:0,month:12,location:require("../Continents/0014_con.png"), name: require("../Glyphs/0014_A.png"),logo:require("../Logos/0014_WWFE_BW.png")},
-//     {id:1,month:12,location:require("../Continents/0016_con.png"), name: require("../Glyphs/0016_A.png"),logo:require("../Logos/0016_WWFE_BW.png")},
-//     {id:2,month:12,location:require("../Continents/0037_con.png"), name: require("../Glyphs/0037_A.png"),logo:require("../Logos/0037_ILRI_BW.png")},
-//     {id:3,month:36,location:require("../Continents/0047_con.png"), name: require("../Glyphs/0047_B.png"),logo:require("../Logos/0047_DAAD_BW.png"),logo1:require("../Logos/0047_ESGPIP_BW.png")},
-//     {id:4,month:36,location:require("../Continents/0095_con.png"), name: require("../Glyphs/0095_A.png"),logo:require("../Logos/0095_CFRURALA_BW.png")},
-// ];
-// let u2 = [
-//     {id:0,month:12,location:require("../Continents/0015_con.png"), name: require("../Glyphs/0015_A.png"),logo:require("../Logos/0015_WWFE_BW.png")},
-//     {id:1,month:12,location:require("../Continents/0017_con.png"), name: require("../Glyphs/0017_A.png"),logo:require("../Logos/0017_DRYCREEK_BW.png"),logo1:require("../Logos/0017_WWFE_BW.png")},
-//     {id:2,month:12,location:require("../Continents/0018_con.png"), name: require("../Glyphs/0018_A.png"),logo:require("../Logos/0018_WWFE_BW.png")},
-//     {id:3,month:12,location:require("../Continents/0019_con.png"), name: require("../Glyphs/0019_A.png"),logo:require("../Logos/0019_WWFE_BW.png")},
-//     {id:4,month:12,location:require("../Continents/0020_con.png"), name: require("../Glyphs/0020_A.png"),logo:require("../Logos/0020_WWFE_BW.png")},
-//     {id:5,month:6,location:require("../Locations/Australia.png"), name: require("../Glyphs/0038_A.png"),logo:require("../Logos/0038_AUS_BW.png"),logo1:require("../Logos/0038_NHL_.png")},
-//     {id:6,month:6,location:require("../Continents/0063_con.png"), name: require("../Glyphs/0063_A.png"),logo:require("../Logos/0063_Sastak_BW.png")},
-//     {id:7,month:24,location:require("../Continents/0024_con.png"), name: require("../Glyphs/0024_B.png"),logo:require("../Logos/0024_Detroit__BW.png"),logo1:require("../Logos/0024_DGE_BW.png")},
-//     {id:8,month:6,location:require("../Continents/0063_con.png"), name: require("../Glyphs/0063_A.png"),logo:require("../Logos/0063_Sastak_BW.png")},
-//     {id:9,month:24,location:require("../Continents/0072_con.png"), name: require("../Glyphs/0072_A.png"),logo:require("../Logos/0072_WPC_BW.png")},
-//     {id:10,month:12,location:require("../Continents/0092_con.png"), name: require("../Glyphs/0092_A.png"),logo:require("../Logos/0092_EARTNNET_BW.png"),logo1:require("../Logos/0092_MESA_BW.png")},
-// ];
-// let u3 = [
-//     {id:0,month:12,location:require("../Continents/0014_con.png"), name: require("../Glyphs/0014_A.png"),logo:require("../Logos/0014_WWFE_BW.png")},
-//     {id:1,month:12,location:require("../Continents/0016_con.png"), name: require("../Glyphs/0016_A.png"),logo:require("../Logos/0016_WWFE_BW.png")},
-//     {id:2,month:12,location:require("../Continents/0037_con.png"), name: require("../Glyphs/0037_A.png"),logo:require("../Logos/0037_ILRI_BW.png")},
-//     {id:3,month:36,location:require("../Continents/0047_con.png"), name: require("../Glyphs/0047_B.png"),logo:require("../Logos/0047_ESGPIP_BW.png"),logo1:require("../Logos/0047_DAAD_BW.png")},
-//     {id:4,month:36,location:require("../Continents/0095_con.png"), name: require("../Glyphs/0095_A.png"),logo:require("../Logos/0095_CFRURALA_BW.png")},
-// ];
-// let u4 = [
-//     {id:0,month:36,location:require("../Continents/0044_con.png"), name: require("../Glyphs/0044_A.png"),logo:require("../Logos/0044_NIEED_BW.png")},
-// ];
-// let u5 = [
-//     {id:0,month:12,location:require("../Continents/0028_con.png"), name: require("../Glyphs/0028_B.png"),logo:require("../Logos/0028_USFS_BW.png")},
-//     {id:1,month:12,location:require("../Continents/0029_con.png"), name: require("../Glyphs/0029_B.png"),logo:require("../Logos/0029_USFS_BW.png")},
-//     {id:2,month:12,location:require("../Continents/0031_con.png"), name: require("../Glyphs/0031_B.png"),logo:require("../Logos/0031_USFS_BW.png")},
-//     {id:3,month:4,location:require("../Continents/0064_con.png"), name: require("../Glyphs/0064_B.png"),logo:require("../Logos/0064_SEE_BW.png"),logo1:require("../Logos/0064_Access_Tier5_BW.jpg")},
-//     {id:4,month:12,location:require("../Continents/0069_con.png"), name: require("../Glyphs/0069_B.png"),logo:require("../Logos/0069_BIODIVERSITY_BW.png"),logo1:require("../Logos/0069_CGIAR_logo_BW.png")},
-//     {id:5,month:12,location:require("../Continents/0070_con.png"), name: require("../Glyphs/0070_B.png"),logo:require("../Logos/0070_BIODIVERSITY_BW.png"),logo1:require("../Logos/0070_CGIAR_logo_BW.png")},
-//     {id:6,month:6,location:require("../Continents/0094_con.png"), name: require("../Glyphs/0094_B.png"),logo:require("../Logos/0094_AMERICORPS_BW.png"),logo1:require("../Logos/0094_EARTHCORPS_BW.png")},
-// ];
-// let u0 = [
-//     {id:0,month:24,location:require("../Continents/0051_con.png"), name: require("../Glyphs/0051_B.png"),logo:require("../Logos/0051_ILO_BW.png"),logo1:require("../Logos/0051_TUNUR_BW.png")},
-//     {id:1,month:36,location:require("../Continents/0053_con.png"), name: require("../Glyphs/0053_B.png"),logo:require("../Logos/0053_DESERTEC_BW.png"),logo1:require("../Logos/0053_IOM_BW.png")},
-// ];
-// let u7 = [
-//     {id:0,month:12,location:require("../Continents/0056_con.png"), name: require("../Glyphs/0056_B.png"),logo:require("../Logos/0056_AARP_BW.png"),logo1:require("../Logos/0056_Encore_BW.png")},
-//     {id:1,month:12,location:require("../Continents/0057_con.png"), name: require("../Glyphs/0057_B.png"),logo:require("../Logos/0057_AARP_BW.png"),logo1:require("../Logos/0057_Encore_BW.png")},
-//     {id:2,month:12,location:require("../Continents/0058_con.png"), name: require("../Glyphs/0058_B.png"),logo:require("../Logos/0058_AARP_BW.png"),logo1:require("../Logos/0058_COTACACHI_BW.png")},
-//     {id:3,month:300,location:require("../Continents/0059_con.png"), name: require("../Glyphs/0059_B.png"),logo:require("../Logos/0059_CIPEM_BW.png"),logo1:require("../Logos/0059_EERealty_BW.png")},
-//     {id:4,month:12,location:require("../Continents/0060_con.png"), name: require("../Glyphs/0060_A.png"),logo:require("../Logos/0060_IESS_BW.png"),logo1:require("../Logos/0060_IL_BW.png")},
-// ];
-// let u8 = [
-//     {id:0,month:24,location:require("../Continents/0066_con.png"), name: require("../Glyphs/0066_A.png"),logo:require("../Logos/0066_AEA_BW.png")},
-// ];
-// let u9 = [
-//     {id:0,move:-0,month:24,location:require("../Continents/0068_con.png"), name: require("../Glyphs/0068_C.png"),logo:require("../Logos/0068_CIP_BW.png")},
-//     {id:1,move:-20,month:24,location:require("../Continents/0075_con.png"), name: require("../Glyphs/0075_C.png"),logo:require("../Logos/0075_WFC_BW.png")},
-//     {id:2,month:24,location:require("../Continents/0087_con.png"), name: require("../Glyphs/0087_C.png"),logo:require("../Logos/0087_BW.png"),logo1:require("../Logos/0087_CAP_BW.png")},
-//     {id:3,month:24,location:require("../Continents/0076_con.png"), name: require("../Glyphs/0076_C.png"),logo:require("../Logos/0076_KFC_BW.png")},
-// ];
-// let u10 = [
-//     {id:0,text:require("../Paragraphs/unnamed.png"),month:12,location:require("../Continents/0002_con.png"), name: require("../Glyphs/0002_A.png"),logo:require("../Logos/0002_FCC_BW.png"),logo1:require("../Logos/0002_STLOUIS_BW.png")},
-//     {id:1,month:12,location:require("../Continents/0003_con.png"), name: require("../Glyphs/0003_A.png"),logo:require("../Logos/0003_FCC_BW.png"),logo1:require("../Logos/0003_KANSASCITY_BW.png")},
-//     {id:2,month:12,location:require("../Continents/0004_con.png"), name: require("../Glyphs/0004_A.png"),logo:require("../Logos/0004_FCC_BW.png"),logo1:require("../Logos/0004_FLINT_BW.png")},
-//     {id:3,month:14,location:require("../Continents/0005_con.png"), name: require("../Glyphs/0005_A.png"),logo:require("../Logos/0005_FCC_BW.png"),logo1:require("../Logos/0005_UWT_BW.png")},
-//     {id:4,month:12,location:require("../Continents/0006_con.png"), name: require("../Glyphs/0006_A.png"),logo:require("../Logos/0006_ELKHART_BW.png"),logo1:require("../Logos/0006_FCC_BW.png")},
-//     {id:5,month:6,location:require("../Continents/0094_con.png"), name: require("../Glyphs/0094_B.png"),logo:require("../Logos/0094_EARTHCORPS_BW.png"),logo1:require("../Logos/0094_AMERICORPS_BW.png")},
-// ];
-// let u11 = [
-//     {id:0,month:12,location:require("../Continents/0002_con.png"), name: require("../Glyphs/0002_A.png"),logo:require("../Logos/0002_FCC_BW.png"),logo1:require("../Logos/0002_STLOUIS_BW.png")},
-//     {id:1,month:12,location:require("../Continents/0003_con.png"), name: require("../Glyphs/0003_A.png"),logo:require("../Logos/0003_FCC_BW.png"),logo1:require("../Logos/0003_KANSASCITY_BW.png")},
-//     {id:2,month:12,location:require("../Continents/0004_con.png"), name: require("../Glyphs/0004_A.png"),logo:require("../Logos/0004_FCC_BW.png"),logo1:require("../Logos/0004_FLINT_BW.png")},
-//     {id:3,month:14,location:require("../Continents/0005_con.png"), name: require("../Glyphs/0005_A.png"),logo:require("../Logos/0005_FCC_BW.png"),logo1:require("../Logos/0005_UWT_BW.png")},
-//     {id:4,month:12,location:require("../Continents/0006_con.png"), name: require("../Glyphs/0006_A.png"),logo:require("../Logos/0006_ELKHART_BW.png"),logo1:require("../Logos/0006_FCC_BW.png")},
-//     {id:5,month:6,location:require("../Continents/0094_con.png"), name: require("../Glyphs/0094_B.png"),logo:require("../Logos/0094_EARTHCORPS_BW.png"),logo1:require("../Logos/0094_AMERICORPS_BW.png")},
-// ];
-// let u12 = [
-//     {id:0,move:30,month:24,location:require("../Continents/0076_con.png"), name: require("../Glyphs/0076_C.png"),logo:require("../Logos/0076_KFC_BW.png")},
-// ];
-// let u13 = [
-//     {id:0,month:12,location:require("../Continents/0007_con.png"), name: require("../Glyphs/0007_B.png"),logo:require("../Logos/0007_DELFINA_BW.png, .png"),logo1:require("../Logos/0007_SILENTU_BW.png")},
-//     {id:1,month:12,location:require("../Continents/0008_con.png"), name: require("../Glyphs/0008_B.png"),logo:require("../Logos/0008_Impulse theater_BW.png"),logo1:require("../Logos/0008_ringlok_BW.png")},
-//     {id:3,month:1,location:require("../Continents/0012_con.png"), name: require("../Glyphs/0012_B.png"),logo:require("../Logos/0012_CSC_BW.png"),logo1:require("../Logos/0012_FNCSF_BW.png")},
-//     {id:4,month:36,location:require("../Continents/0044_con.png"), name: require("../Glyphs/0044_A.png"),logo:require("../Logos/0044_NIEED_BW.png")},
-//     {id:5,month:24,location:require("../Continents/0045_con.png"), name: require("../Glyphs/0045_B.png"),logo:require("../Logos/0045_NIEED_BW.png"),logo1:require("../Logos/0064_Access_Tier5_BW.jpg")},
-//     {id:6,month:6,location:require("../Continents/0052_con.png"), name: require("../Glyphs/0052_A.png"),logo:require("../Logos/0052_BRAC_BW.png"),logo1:require("../Logos/0052_ILO_BW.png")},
-//     {id:7,month:6,location:require("../Continents/0054_con.png"), name: require("../Glyphs/0054_A.png"),logo:require("../Logos/0054_CSU_BW.png"),logo1:require("../Logos/0054_SAS_BW.png")},
-//     {id:8,month:6,location:require("../Continents/0055_con.png"), name: require("../Glyphs/0055_B.png"),logo:require("../Logos/0055_SAS_BW.png"),logo1:require("../Logos/0055_CSU_BW.png")},
-//     {id:9,month:48,location:require("../Continents/0082_con.png"), name: require("../Glyphs/0082_B.png"),logo:require("../Logos/0082_Dayton_BW.png"),logo1:require("../Logos/0082_MCLB_BW.png")},
-// ];
-// let u14 = [
-//     {id:0,month:12,location:require("../Continents/0014_con.png"), name: require("../Glyphs/0014_A.png"),logo:require("../Logos/0014_WWFE_BW.png")},
-//     {id:1,month:12,location:require("../Continents/0016_con.png"), name: require("../Glyphs/0016_A.png"),logo:require("../Logos/0016_WWFE_BW.png")},
-//     {id:2,month:12,location:require("../Continents/0031_con.png"), name: require("../Glyphs/0031_B.png"),logo:require("../Logos/0031_USFS_BW.png")},
-//     {id:3,month:36,location:require("../Continents/0047_con.png"), name: require("../Glyphs/0047_B.png"),logo:require("../Logos/0047_DAAD_BW.png"),logo1:require("../Logos/0047_ESGPIP_BW.png")},
-//     {id:4,month:12,location:require("../Continents/0092_con.png"), name: require("../Glyphs/0092_A.png"),logo:require("../Logos/0092_MESA_BW.png"),logo1:require("../Logos/0092_EARTNNET_BW.png")},
-//     {id:5,month:12,location:require("../Continents/0093_con.png"), name: require("../Glyphs/0093_A.png"),logo:require("../Logos/0093_MESA_BW.png"),logo1:require("../Logos/0093_OSEEDA_BW.png")},
-//     {id:6,month:36,location:require("../Continents/0095_con.png"), name: require("../Glyphs/0095_A.png"),logo:require("../Logos/0095_CFRURALA_BW.png")},
-//     {id:7,month:12,location:require("../Continents/0096_con.png"), name: require("../Glyphs/0096_A.png"),logo:require("../Logos/0096_ALASKAMCC_BW.png")},
-// ];
-// let u15 = [
-//     {id:0,month:12,location:require("../Continents/0007_con.png"), name: require("../Glyphs/0007_B.png"),logo:require("../Logos/0007_Sroom_BW.png"),logo1:require("../Logos/0007_SILENTU_BW.png")},
-//     {id:1,month:12,location:require("../Continents/0008_con.png"), name: require("../Glyphs/0008_B.png"),logo:require("../Logos/0008_Impulse theater_BW.png"),logo1:require("../Logos/0008_ringlok_BW.png")},
-//     {id:2,month:12,location:require("../Continents/0043_con.png"), name: require("../Glyphs/0043_B.png"),logo:require("../Logos/0043_NIEED_BW.png"),logo1:require("../Logos/0043_TALK_BW.png")},
-//     {id:3,month:6,location:require("../Continents/0054_con.png"), name: require("../Glyphs/0054_A.png"),logo:require("../Logos/0054_CSU_BW.png"),logo1:require("../Logos/0054_SAS_BW.png")},
-//     {id:4,month:48,location:require("../Continents/0082_con.png"), name: require("../Glyphs/0082_B.png"),logo:require("../Logos/0082_Dayton_BW.png"),logo1:require("../Logos/0082_MCLB_BW.png")},
-// ];
-// let u16 = [
-//     {id:0,month:6,location:require("../Continents/0009_con.png"), name: require("../Glyphs/0009_B.png"),logo:require("../Logos/0009_bsm_BW.png"),logo1:require("../Logos/0009_REfugio_bw.png")},
-//     {id:1,month:1,location:require("../Continents/0013_con.png"), name: require("../Glyphs/0013_B.png"),logo:require("../Logos/0013_TU_BW.png"),logo1:require("../Logos/0013_Uberdentellerand_BW.png")},
-//     {id:2,month:18,location:require("../Continents/0024_con.png"), name: require("../Glyphs/0024_B.png"),logo:require("../Logos/0024_Detroit__BW.png"),logo1:require("../Logos/0024_DGE_BW.png")},
-//     {id:3,month:18,location:require("../Continents/0025_con.png"), name: require("../Glyphs/0025_B.png"),logo:require("../Logos/0025_DGE_BW.png"),logo1:require("../Logos/0024_Detroit__BW.png")},
-//     {id:4,month:12,location:require("../Continents/0026_con.png"), name: require("../Glyphs/0026_B.png"),logo:require("../Logos/0026_LOVELAND_BW.png"),logo1:require("../Logos/0026_DGE_BW.png")},
-//     {id:5,month:24,location:require("../Continents/0027_con.png"), name: require("../Glyphs/0027_B.png"),logo:require("../Logos/0027_DGE_BW.png"),logo1:require("../Logos/0027_CITYPITTS_BW.png")},
-// ];
-// let u17 = [
-//     {id:0,month:24,location:require("../Continents/0010_con.png"), name: require("../Glyphs/0010_B.png"),logo:require("../Logos/0010_geheimagentur_BW.png"),logo1:require("../Logos/0010_HYdrarchy_BW.png")},
-//     {id:1,month:18,location:require("../Continents/0011_con.png"), name: require("../Glyphs/0011_A.png"),logo:require("../Logos/0011_geheimagentur_BW.png"),logo1:require("../Logos/0011_HYdrarchy_BW.png")},
-// ];
-// let u18 = [
-//     {id:0,month:18,location:require("../Continents/0024_con.png"), name: require("../Glyphs/0024_B.png"),logo:require("../Logos/0024_DGE_BW.png"),logo1:require("../Logos/0024_Detroit__BW.png")},
-//     {id:1,month:18,location:require("../Continents/0025_con.png"), name: require("../Glyphs/0025_B.png"),logo:require("../Logos/0025_Cuyahoga_BW.png"),logo1:require("../Logos/0025_DGE_BW.png")},
-//     {id:2,month:12,location:require("../Continents/0026_con.png"), name: require("../Glyphs/0026_B.png"),logo:require("../Logos/0026_DGE_BW.png"),logo1:require("../Logos/0026_LOVELAND_BW.png")},
-//     {id:3,month:24,location:require("../Continents/0027_con.png"), name: require("../Glyphs/0027_B.png"),logo:require("../Logos/0027_CITYPITTS_BW.png"),logo1:require("../Logos/0027_DGE_BW.png")},
-//     {id:4,month:36,location:require("../Continents/0053_con.png"), name: require("../Glyphs/0053_B.png"),logo:require("../Logos/0053_DESERTEC_BW.png"),logo1:require("../Logos/0053_DESERTEC_BW.png")},
-//     {id:5,month:24,location:require("../Continents/0084_con.png"), name: require("../Glyphs/0084_B.png"),logo:require("../Logos/0084_Dayton_BW.png"),logo1:require("../Logos/0084_MCLB_BW.png")},
-// ];
-// let u19 = [
-//     {id:0,month:18,location:require("../Continents/0024_con.png"), name: require("../Glyphs/0024_B.png"),logo:require("../Logos/0024_DGE_BW.png"),logo1:require("../Logos/0024_Detroit__BW.png")},
-//     {id:1,month:18,location:require("../Continents/0025_con.png"), name: require("../Glyphs/0025_B.png"),logo:require("../Logos/0025_Cuyahoga_BW.png"),logo1:require("../Logos/0025_DGE_BW.png")},
-//     {id:2,month:12,location:require("../Continents/0026_con.png"), name: require("../Glyphs/0026_B.png"),logo:require("../Logos/0026_DGE_BW.png"),logo1:require("../Logos/0026_LOVELAND_BW.png")},
-//     {id:3,month:24,location:require("../Continents/0027_con.png"), name: require("../Glyphs/0027_B.png"),logo:require("../Logos/0027_CITYPITTS_BW.png"),logo1:require("../Logos/0027_DGE_BW.png")},
-//     {id:4,month:36,location:require("../Continents/0053_con.png"), name: require("../Glyphs/0053_B.png"),logo:require("../Logos/0053_DESERTEC_BW.png"),logo1:require("../Logos/0053_DESERTEC_BW.png")},
-//     {id:5,month:24,location:require("../Continents/0084_con.png"), name: require("../Glyphs/0084_B.png"),logo:require("../Logos/0084_Dayton_BW.png"),logo1:require("../Logos/0084_MCLB_BW.png")},
-// ];
-// let u20 = [
-//     {id:0,month:12,location:require("../Continents/0007_con.png"), name: require("../Glyphs/0007_B.png"),logo:require("../Logos/0007_SILENTU_BW.png"),logo1:require("../Logos/0007_Sroom_BW.png")},
-//     {id:1,month:12,location:require("../Continents/0008_con.png"), name: require("../Glyphs/0008_B.png"),logo:require("../Logos/0008_ringlok_BW.png"),logo1:require("../Logos/0008_Impulse theater_BW.png")},
-//     {id:2,month:1,location:require("../Continents/0012_con.png"), name: require("../Glyphs/0012_B.png"),logo:require("../Logos/0012_FNCSF_BW.png"),logo1:require("../Logos/0012_CSC_BW.png")},
-//     {id:3,month:36,location:require("../Continents/0044_con.png"), name: require("../Glyphs/0044_A.png"),logo:require("../Logos/0044_NIEED_BW.png")},
-//     {id:4,month:6,location:require("../Continents/0054_con.png"), name: require("../Glyphs/0054_A.png"),logo:require("../Logos/0054_SAS_BW.png"),logo1:require("../Logos/0054_CSU_BW.png")},
-//     {id:5,month:48,location:require("../Continents/0084_con.png"), name: require("../Glyphs/0082_B.png"),logo:require("../Logos/0082_MCLB_BW.png"),logo1:require("../Logos/0082_Dayton_BW.png")},
-// ];
-// let u21 = [
-//     {id:0,month:12,location:require("../Continents/0032_con.png"), name: require("../Glyphs/0032_B.png"),logo:require("../Logos/0032_GHC_BW.png"),logo1:require("../Logos/0032_GHC_BW.png")},
-//     {id:1,month:12,location:require("../Continents/0033_con.png"), name: require("../Glyphs/0033_B.png"),logo:require("../Logos/0033_Atlascorp_BW.png"),logo1:require("../Logos/0033_GHC_BW.png")},
-//     {id:2,month:12,location:require("../Continents/0034_con.png"), name: require("../Glyphs/0034_B.png"),logo:require("../Logos/0034_Atlascorp_BW.png"),logo1:require("../Logos/0034_GHC_BW.png")},
-//     {id:3,month:12,location:require("../Continents/0035_con.png"), name: require("../Glyphs/0035_B.png"),logo:require("../Logos/0035_AMS_BW.png"),logo1:require("../Logos/0035_Atlascorp_BW.png")},
-//     {id:4,month:12,location:require("../Continents/0036_con.png"), name: require("../Glyphs/0036_B.png"),logo:require("../Logos/0036_Atlascorp_BW.png"),logo1:require("../Logos/0036_GHC_BW.png")},
-//     {id:5,month:24,location:require("../Continents/0083_con.png"), name: require("../Glyphs/0083_B.png"),logo:require("../Logos/0083_Dayton_BW.png"),logo1:require("../Logos/0083_MCLB_BW.png")},
-// ];
-// let u22 =[
-//     {id:0,month:6,location:require("../Continents/0090_con.png"), name: require("../Glyphs/0090_B.png"),logo:require("../Logos/0090_CSU_BW.png"),logo1:require("../Logos/0090_SAS_BW.png")},
-//     {id:1,month:12,location:require("../Continents/0096_con.png"), name: require("../Glyphs/0096_A.png"),logo:require("../Logos/0096_ALASKAMCC_BW.png")},
-// ];
-
-
-// let matches = [];
-// switch (this.state.user) {
-//     case 0:
-//         return (matches = this.renderMatch.bind(this)(u0));
-//     case 1:
-//         return (matches = this.renderMatch.bind(this)(u1));
-//     case 2:
-//         return (matches = this.renderMatch.bind(this)(u2));
-//     case 3:
-//         return (matches = this.renderMatch.bind(this)(u3));
-//     case 4:
-//         return (matches = this.renderMatch.bind(this)(u4));
-//     case 5:
-//         return (matches = this.renderMatch.bind(this)(u5));
-//     case 6:
-//         return (matches = this.renderMatch.bind(this)(u6));
-//     case 7:
-//         return (matches = this.renderMatch.bind(this)(u7));
-//     case 8:
-//         return (matches = this.renderMatch.bind(this)(u8));
-//     case 9:
-//         return (matches = this.renderMatch.bind(this)(u9));
-//     case 10:
-//         return (matches = this.renderMatch.bind(this)(u10));
-//     case 11:
-//         return (matches = this.renderMatch.bind(this)(u11));
-//     case 12:
-//         return (matches = this.renderMatch.bind(this)(u12));
-//     case 13:
-//         return (matches = this.renderMatch.bind(this)(u13));
-//     case 14:
-//         return (matches = this.renderMatch.bind(this)(u14));
-//     case 15:
-//         return (matches = this.renderMatch.bind(this)(u15));
-//     case 16:
-//         return (matches = this.renderMatch.bind(this)(u16));
-//     case 17:
-//         return (matches = this.renderMatch.bind(this)(u17));
-//     case 18:
-//         return (matches = this.renderMatch.bind(this)(u18));
-//     case 19:
-//         return (matches = this.renderMatch.bind(this)(u19));
-//     case 20:
-//         return (matches = this.renderMatch.bind(this)(u20));
-//     case 21:
-//         return (matches = this.renderMatch.bind(this)(u21));
-//     case 22:
-//         return (matches = this.renderMatch.bind(this)(u22));
-//     default:
-//         return(matches = this.renderMatch.bind(this)(u0))
-// }
-
+const allMatches = {
+ u6 : [
+    {id:0,month:36,location:require("../assets/continents/0021_con.png").default, glyph: require("../assets/glyphs/0021_B.png").default,logo:require("../assets/logos/0021_Alexandria_BW.png").default,logo1:require("../assets/logos/0021_ECFMG_BW.png").default},
+    {id:1,month:36,location:require("../assets/continents/0023_con.png").default, glyph: require("../assets/glyphs/0023_B.png").default,logo:require("../assets/logos/0023_Beaumont_BW.png").default,logo1:require("../assets/logos/0023_ECFMG_BW.png").default},
+    {id:2,month:6,location:require("../assets/continents/0055_con.png").default, glyph: require("../assets/glyphs/0055_B.png").default,logo:require("../assets/logos/0055_CSU_BW.png").default,logo1:require("../assets/logos/0055_SAS_BW.png").default},
+],
+ u1 : [
+    {id:0,month:12,location:require("../assets/continents/0014_con.png").default, glyph: require("../assets/glyphs/0014_A.png").default,logo:require("../assets/logos/0014_WWFE_BW.png").default},
+    {id:1,month:12,location:require("../assets/continents/0016_con.png").default, glyph: require("../assets/glyphs/0016_A.png").default,logo:require("../assets/logos/0016_WWFE_BW.png").default},
+    {id:2,month:12,location:require("../assets/continents/0037_con.png").default, glyph: require("../assets/glyphs/0037_A.png").default,logo:require("../assets/logos/0037_ILRI_BW.png").default},
+    {id:3,month:36,location:require("../assets/continents/0047_con.png").default, glyph: require("../assets/glyphs/0047_B.png").default,logo:require("../assets/logos/0047_DAAD_BW.png").default,logo1:require("../assets/logos/0047_ESGPIP_BW.png").default},
+    {id:4,month:36,location:require("../assets/continents/0095_con.png").default, glyph: require("../assets/glyphs/0095_A.png").default,logo:require("../assets/logos/0095_CFRURALA_BW.png").default},
+],
+ u2 : [
+    {id:0,month:12,location:require("../assets/continents/0015_con.png").default, glyph: require("../assets/glyphs/0015_A.png").default,logo:require("../assets/logos/0015_WWFE_BW.png").default},
+    {id:1,month:12,location:require("../assets/continents/0017_con.png").default, glyph: require("../assets/glyphs/0017_A.png").default,logo:require("../assets/logos/0017_DRYCREEK_BW.png").default,logo1:require("../assets/logos/0017_WWFE_BW.png").default},
+    {id:2,month:12,location:require("../assets/continents/0018_con.png").default, glyph: require("../assets/glyphs/0018_A.png").default,logo:require("../assets/logos/0018_WWFE_BW.png").default},
+    {id:3,month:12,location:require("../assets/continents/0019_con.png").default, glyph: require("../assets/glyphs/0019_A.png").default,logo:require("../assets/logos/0019_WWFE_BW.png").default},
+    {id:4,month:12,location:require("../assets/continents/0020_con.png").default, glyph: require("../assets/glyphs/0020_A.png").default,logo:require("../assets/logos/0020_WWFE_BW.png").default},
+    // {id:5,month:6,location:require("../Locations/Australia.png").default, glyph: require("../assets/glyphs/0038_A.png").default,logo:require("../assets/logos/0038_AUS_BW.png").default,logo1:require("../assets/logos/0038_NHL_.png").default},
+    {id:6,month:6,location:require("../assets/continents/0063_con.png").default, glyph: require("../assets/glyphs/0063_A.png").default,logo:require("../assets/logos/0063_Sastak_BW.png").default},
+    {id:7,month:24,location:require("../assets/continents/0024_con.png").default, glyph: require("../assets/glyphs/0024_B.png").default,logo:require("../assets/logos/0024_Detroit__BW.png").default,logo1:require("../assets/logos/0024_DGE_BW.png").default},
+    {id:8,month:6,location:require("../assets/continents/0063_con.png").default, glyph: require("../assets/glyphs/0063_A.png").default,logo:require("../assets/logos/0063_Sastak_BW.png").default},
+    {id:9,month:24,location:require("../assets/continents/0072_con.png").default, glyph: require("../assets/glyphs/0072_A.png").default,logo:require("../assets/logos/0072_WPC_BW.png").default},
+    {id:10,month:12,location:require("../assets/continents/0092_con.png").default, glyph: require("../assets/glyphs/0092_A.png").default,logo:require("../assets/logos/0092_EARTNNET_BW.png").default,logo1:require("../assets/logos/0092_MESA_BW.png").default},
+],
+ u3 : [
+    {id:0,month:12,location:require("../assets/continents/0014_con.png").default, glyph: require("../assets/glyphs/0014_A.png").default,logo:require("../assets/logos/0014_WWFE_BW.png").default},
+    {id:1,month:12,location:require("../assets/continents/0016_con.png").default, glyph: require("../assets/glyphs/0016_A.png").default,logo:require("../assets/logos/0016_WWFE_BW.png").default},
+    {id:2,month:12,location:require("../assets/continents/0037_con.png").default, glyph: require("../assets/glyphs/0037_A.png").default,logo:require("../assets/logos/0037_ILRI_BW.png").default},
+    {id:3,month:36,location:require("../assets/continents/0047_con.png").default, glyph: require("../assets/glyphs/0047_B.png").default,logo:require("../assets/logos/0047_ESGPIP_BW.png").default,logo1:require("../assets/logos/0047_DAAD_BW.png").default},
+    {id:4,month:36,location:require("../assets/continents/0095_con.png").default, glyph: require("../assets/glyphs/0095_A.png").default,logo:require("../assets/logos/0095_CFRURALA_BW.png").default},
+],
+ u4 : [
+    {id:0,month:36,location:require("../assets/continents/0044_con.png").default, glyph: require("../assets/glyphs/0044_A.png").default,logo:require("../assets/logos/0044_NIEED_BW.png").default},
+],
+ u5 : [
+    {id:0,month:12,location:require("../assets/continents/0028_con.png").default, glyph: require("../assets/glyphs/0028_B.png").default,logo:require("../assets/logos/0028_USFS_BW.png").default},
+    {id:1,month:12,location:require("../assets/continents/0029_con.png").default, glyph: require("../assets/glyphs/0029_B.png").default,logo:require("../assets/logos/0029_USFS_BW.png").default},
+    {id:2,month:12,location:require("../assets/continents/0031_con.png").default, glyph: require("../assets/glyphs/0031_B.png").default,logo:require("../assets/logos/0031_USFS_BW.png").default},
+    {id:3,month:4,location:require("../assets/continents/0064_con.png").default, glyph: require("../assets/glyphs/0064_B.png").default,logo:require("../assets/logos/0064_SEE_BW.png").default,logo1:require("../assets/logos/0064_Access_Tier5_BW.jpg")},
+    {id:4,month:12,location:require("../assets/continents/0069_con.png").default, glyph: require("../assets/glyphs/0069_B.png").default,logo:require("../assets/logos/0069_BIODIVERSITY_BW.png").default,logo1:require("../assets/logos/0069_CGIAR_logo_BW.png").default},
+    {id:5,month:12,location:require("../assets/continents/0070_con.png").default, glyph: require("../assets/glyphs/0070_B.png").default,logo:require("../assets/logos/0070_BIODIVERSITY_BW.png").default,logo1:require("../assets/logos/0070_CGIAR_logo_BW.png").default},
+    {id:6,month:6,location:require("../assets/continents/0094_con.png").default, glyph: require("../assets/glyphs/0094_B.png").default,logo:require("../assets/logos/0094_AMERICORPS_BW.png").default,logo1:require("../assets/logos/0094_EARTHCORPS_BW.png").default},
+],
+ u0 : [
+    {id:0,month:24,location:require("../assets/continents/0051_con.png").default, glyph: require("../assets/glyphs/0051_B.png").default,logo:require("../assets/logos/0051_ILO_BW.png").default,logo1:require("../assets/logos/0051_TUNUR_BW.png").default},
+    {id:1,month:36,location:require("../assets/continents/0053_con.png").default, glyph: require("../assets/glyphs/0053_B.png").default,logo:require("../assets/logos/0053_DESERTEC_BW.png").default,logo1:require("../assets/logos/0053_IOM_BW.png").default},
+],
+ u7 : [
+    {id:0,month:12,location:require("../assets/continents/0056_con.png").default, glyph: require("../assets/glyphs/0056_B.png").default,logo:require("../assets/logos/0056_AARP_BW.png").default,logo1:require("../assets/logos/0056_Encore_BW.png").default},
+    {id:1,month:12,location:require("../assets/continents/0057_con.png").default, glyph: require("../assets/glyphs/0057_B.png").default,logo:require("../assets/logos/0057_AARP_BW.png").default,logo1:require("../assets/logos/0057_Encore_BW.png").default},
+    {id:2,month:12,location:require("../assets/continents/0058_con.png").default, glyph: require("../assets/glyphs/0058_B.png").default,logo:require("../assets/logos/0058_AARP_BW.png").default,logo1:require("../assets/logos/0058_COTACACHI_BW.png").default},
+    {id:3,month:300,location:require("../assets/continents/0059_con.png").default, glyph: require("../assets/glyphs/0059_B.png").default,logo:require("../assets/logos/0059_CIPEM_BW.png").default,logo1:require("../assets/logos/0059_EERealty_BW.png").default},
+    {id:4,month:12,location:require("../assets/continents/0060_con.png").default, glyph: require("../assets/glyphs/0060_A.png").default,logo:require("../assets/logos/0060_IESS_BW.png").default,logo1:require("../assets/logos/0060_IL_BW.png").default},
+],
+ u8 :[
+    {id:0,month:24,location:require("../assets/continents/0066_con.png").default, glyph: require("../assets/glyphs/0066_A.png").default,logo:require("../assets/logos/0066_AEA_BW.png").default},
+],
+ u9 : [
+    {id:0,move:-0,month:24,location:require("../assets/continents/0068_con.png").default, glyph: require("../assets/glyphs/0068_C.png").default,logo:require("../assets/logos/0068_CIP_BW.png").default},
+    {id:1,move:-20,month:24,location:require("../assets/continents/0075_con.png").default, glyph: require("../assets/glyphs/0075_C.png").default,logo:require("../assets/logos/0075_WFC_BW.png").default},
+    {id:2,month:24,location:require("../assets/continents/0087_con.png").default, glyph: require("../assets/glyphs/0087_C.png").default,logo:require("../assets/logos/0087_BW.png").default,logo1:require("../assets/logos/0087_CAP_BW.png").default},
+    {id:3,month:24,location:require("../assets/continents/0076_con.png").default, glyph: require("../assets/glyphs/0076_C.png").default,logo:require("../assets/logos/0076_KFC_BW.png").default},
+],
+ u10 : [
+    // {id:0,text:require("../Paragraphs/unnamed.png").default,month:12,location:require("../assets/continents/0002_con.png").default, glyph: require("../assets/glyphs/0002_A.png").default,logo:require("../assets/logos/0002_FCC_BW.png").default,logo1:require("../assets/logos/0002_STLOUIS_BW.png").default},
+    {id:1,month:12,location:require("../assets/continents/0003_con.png").default, glyph: require("../assets/glyphs/0003_A.png").default,logo:require("../assets/logos/0003_FCC_BW.png").default,logo1:require("../assets/logos/0003_KANSASCITY_BW.png").default},
+    {id:2,month:12,location:require("../assets/continents/0004_con.png").default, glyph: require("../assets/glyphs/0004_A.png").default,logo:require("../assets/logos/0004_FCC_BW.png").default,logo1:require("../assets/logos/0004_FLINT_BW.png").default},
+    {id:3,month:14,location:require("../assets/continents/0005_con.png").default, glyph: require("../assets/glyphs/0005_A.png").default,logo:require("../assets/logos/0005_FCC_BW.png").default,logo1:require("../assets/logos/0005_UWT_BW.png").default},
+    {id:4,month:12,location:require("../assets/continents/0006_con.png").default, glyph: require("../assets/glyphs/0006_A.png").default,logo:require("../assets/logos/0006_ELKHART_BW.png").default,logo1:require("../assets/logos/0006_FCC_BW.png").default},
+    {id:5,month:6,location:require("../assets/continents/0094_con.png").default, glyph: require("../assets/glyphs/0094_B.png").default,logo:require("../assets/logos/0094_EARTHCORPS_BW.png").default,logo1:require("../assets/logos/0094_AMERICORPS_BW.png").default},
+],
+ u11 :[
+    {id:0,month:12,location:require("../assets/continents/0002_con.png").default, glyph: require("../assets/glyphs/0002_A.png").default,logo:require("../assets/logos/0002_FCC_BW.png").default,logo1:require("../assets/logos/0002_STLOUIS_BW.png").default},
+    {id:1,month:12,location:require("../assets/continents/0003_con.png").default, glyph: require("../assets/glyphs/0003_A.png").default,logo:require("../assets/logos/0003_FCC_BW.png").default,logo1:require("../assets/logos/0003_KANSASCITY_BW.png").default},
+    {id:2,month:12,location:require("../assets/continents/0004_con.png").default, glyph: require("../assets/glyphs/0004_A.png").default,logo:require("../assets/logos/0004_FCC_BW.png").default,logo1:require("../assets/logos/0004_FLINT_BW.png").default},
+    {id:3,month:14,location:require("../assets/continents/0005_con.png").default, glyph: require("../assets/glyphs/0005_A.png").default,logo:require("../assets/logos/0005_FCC_BW.png").default,logo1:require("../assets/logos/0005_UWT_BW.png").default},
+    {id:4,month:12,location:require("../assets/continents/0006_con.png").default, glyph: require("../assets/glyphs/0006_A.png").default,logo:require("../assets/logos/0006_ELKHART_BW.png").default,logo1:require("../assets/logos/0006_FCC_BW.png").default},
+    {id:5,month:6,location:require("../assets/continents/0094_con.png").default, glyph: require("../assets/glyphs/0094_B.png").default,logo:require("../assets/logos/0094_EARTHCORPS_BW.png").default,logo1:require("../assets/logos/0094_AMERICORPS_BW.png").default},
+],
+ u12 :[
+    {id:0,move:30,month:24,location:require("../assets/continents/0076_con.png").default, glyph: require("../assets/glyphs/0076_C.png").default,logo:require("../assets/logos/0076_KFC_BW.png").default},
+],
+ u13 : [
+    {id:0,month:12,location:require("../assets/continents/0007_con.png").default, glyph: require("../assets/glyphs/0007_B.png").default,logo:require("../assets/logos/0007_DELFINA_BW.png, .png").default,logo1:require("../assets/logos/0007_SILENTU_BW.png").default},
+    {id:1,month:12,location:require("../assets/continents/0008_con.png").default, glyph: require("../assets/glyphs/0008_B.png").default,logo:require("../assets/logos/0008_Impulse theater_BW.png").default,logo1:require("../assets/logos/0008_ringlok_BW.png").default},
+    {id:3,month:1,location:require("../assets/continents/0012_con.png").default, glyph: require("../assets/glyphs/0012_B.png").default,logo:require("../assets/logos/0012_CSC_BW.png").default,logo1:require("../assets/logos/0012_FNCSF_BW.png").default},
+    {id:4,month:36,location:require("../assets/continents/0044_con.png").default, glyph: require("../assets/glyphs/0044_A.png").default,logo:require("../assets/logos/0044_NIEED_BW.png").default},
+    {id:5,month:24,location:require("../assets/continents/0045_con.png").default, glyph: require("../assets/glyphs/0045_B.png").default,logo:require("../assets/logos/0045_NIEED_BW.png").default,logo1:require("../assets/logos/0064_Access_Tier5_BW.jpg")},
+    {id:6,month:6,location:require("../assets/continents/0052_con.png").default, glyph: require("../assets/glyphs/0052_A.png").default,logo:require("../assets/logos/0052_BRAC_BW.png").default,logo1:require("../assets/logos/0052_ILO_BW.png").default},
+    {id:7,month:6,location:require("../assets/continents/0054_con.png").default, glyph: require("../assets/glyphs/0054_A.png").default,logo:require("../assets/logos/0054_CSU_BW.png").default,logo1:require("../assets/logos/0054_SAS_BW.png").default},
+    {id:8,month:6,location:require("../assets/continents/0055_con.png").default, glyph: require("../assets/glyphs/0055_B.png").default,logo:require("../assets/logos/0055_SAS_BW.png").default,logo1:require("../assets/logos/0055_CSU_BW.png").default},
+    {id:9,month:48,location:require("../assets/continents/0082_con.png").default, glyph: require("../assets/glyphs/0082_B.png").default,logo:require("../assets/logos/0082_Dayton_BW.png").default,logo1:require("../assets/logos/0082_MCLB_BW.png").default},
+],
+ u14 :[
+    {id:0,month:12,location:require("../assets/continents/0014_con.png").default, glyph: require("../assets/glyphs/0014_A.png").default,logo:require("../assets/logos/0014_WWFE_BW.png").default},
+    {id:1,month:12,location:require("../assets/continents/0016_con.png").default, glyph: require("../assets/glyphs/0016_A.png").default,logo:require("../assets/logos/0016_WWFE_BW.png").default},
+    {id:2,month:12,location:require("../assets/continents/0031_con.png").default, glyph: require("../assets/glyphs/0031_B.png").default,logo:require("../assets/logos/0031_USFS_BW.png").default},
+    {id:3,month:36,location:require("../assets/continents/0047_con.png").default, glyph: require("../assets/glyphs/0047_B.png").default,logo:require("../assets/logos/0047_DAAD_BW.png").default,logo1:require("../assets/logos/0047_ESGPIP_BW.png").default},
+    {id:4,month:12,location:require("../assets/continents/0092_con.png").default, glyph: require("../assets/glyphs/0092_A.png").default,logo:require("../assets/logos/0092_MESA_BW.png").default,logo1:require("../assets/logos/0092_EARTNNET_BW.png").default},
+    {id:5,month:12,location:require("../assets/continents/0093_con.png").default, glyph: require("../assets/glyphs/0093_A.png").default,logo:require("../assets/logos/0093_MESA_BW.png").default,logo1:require("../assets/logos/0093_OSEEDA_BW.png").default},
+    {id:6,month:36,location:require("../assets/continents/0095_con.png").default, glyph: require("../assets/glyphs/0095_A.png").default,logo:require("../assets/logos/0095_CFRURALA_BW.png").default},
+    {id:7,month:12,location:require("../assets/continents/0096_con.png").default, glyph: require("../assets/glyphs/0096_A.png").default,logo:require("../assets/logos/0096_ALASKAMCC_BW.png").default},
+],
+ u15 :[
+    {id:0,month:12,location:require("../assets/continents/0007_con.png").default, glyph: require("../assets/glyphs/0007_B.png").default,logo:require("../assets/logos/0007_Sroom_BW.png").default,logo1:require("../assets/logos/0007_SILENTU_BW.png").default},
+    {id:1,month:12,location:require("../assets/continents/0008_con.png").default, glyph: require("../assets/glyphs/0008_B.png").default,logo:require("../assets/logos/0008_Impulse theater_BW.png").default,logo1:require("../assets/logos/0008_ringlok_BW.png").default},
+    {id:2,month:12,location:require("../assets/continents/0043_con.png").default, glyph: require("../assets/glyphs/0043_B.png").default,logo:require("../assets/logos/0043_NIEED_BW.png").default,logo1:require("../assets/logos/0043_TALK_BW.png").default},
+    {id:3,month:6,location:require("../assets/continents/0054_con.png").default, glyph: require("../assets/glyphs/0054_A.png").default,logo:require("../assets/logos/0054_CSU_BW.png").default,logo1:require("../assets/logos/0054_SAS_BW.png").default},
+    {id:4,month:48,location:require("../assets/continents/0082_con.png").default, glyph: require("../assets/glyphs/0082_B.png").default,logo:require("../assets/logos/0082_Dayton_BW.png").default,logo1:require("../assets/logos/0082_MCLB_BW.png").default},
+],
+ u16 :[
+    {id:0,month:6,location:require("../assets/continents/0009_con.png").default, glyph: require("../assets/glyphs/0009_B.png").default,logo:require("../assets/logos/0009_bsm_BW.png").default,logo1:require("../assets/logos/0009_REfugio_bw.png").default},
+    {id:1,month:1,location:require("../assets/continents/0013_con.png").default, glyph: require("../assets/glyphs/0013_B.png").default,logo:require("../assets/logos/0013_TU_BW.png").default,logo1:require("../assets/logos/0013_Uberdentellerand_BW.png").default},
+    {id:2,month:18,location:require("../assets/continents/0024_con.png").default, glyph: require("../assets/glyphs/0024_B.png").default,logo:require("../assets/logos/0024_Detroit__BW.png").default,logo1:require("../assets/logos/0024_DGE_BW.png").default},
+    {id:3,month:18,location:require("../assets/continents/0025_con.png").default, glyph: require("../assets/glyphs/0025_B.png").default,logo:require("../assets/logos/0025_DGE_BW.png").default,logo1:require("../assets/logos/0024_Detroit__BW.png").default},
+    {id:4,month:12,location:require("../assets/continents/0026_con.png").default, glyph: require("../assets/glyphs/0026_B.png").default,logo:require("../assets/logos/0026_LOVELAND_BW.png").default,logo1:require("../assets/logos/0026_DGE_BW.png").default},
+    {id:5,month:24,location:require("../assets/continents/0027_con.png").default, glyph: require("../assets/glyphs/0027_B.png").default,logo:require("../assets/logos/0027_DGE_BW.png").default,logo1:require("../assets/logos/0027_CITYPITTS_BW.png").default},
+],
+u17: [
+    {id:0,month:24,location:require("../assets/continents/0010_con.png").default, glyph: require("../assets/glyphs/0010_B.png").default,logo:require("../assets/logos/0010_geheimagentur_BW.png").default,logo1:require("../assets/logos/0010_HYdrarchy_BW.png").default},
+    {id:1,month:18,location:require("../assets/continents/0011_con.png").default, glyph: require("../assets/glyphs/0011_A.png").default,logo:require("../assets/logos/0011_geheimagentur_BW.png").default,logo1:require("../assets/logos/0011_HYdrarchy_BW.png").default},
+],
+u18:[
+    {id:0,month:18,location:require("../assets/continents/0024_con.png").default, glyph: require("../assets/glyphs/0024_B.png").default,logo:require("../assets/logos/0024_DGE_BW.png").default,logo1:require("../assets/logos/0024_Detroit__BW.png").default},
+    {id:1,month:18,location:require("../assets/continents/0025_con.png").default, glyph: require("../assets/glyphs/0025_B.png").default,logo:require("../assets/logos/0025_Cuyahoga_BW.png").default,logo1:require("../assets/logos/0025_DGE_BW.png").default},
+    {id:2,month:12,location:require("../assets/continents/0026_con.png").default, glyph: require("../assets/glyphs/0026_B.png").default,logo:require("../assets/logos/0026_DGE_BW.png").default,logo1:require("../assets/logos/0026_LOVELAND_BW.png").default},
+    {id:3,month:24,location:require("../assets/continents/0027_con.png").default, glyph: require("../assets/glyphs/0027_B.png").default,logo:require("../assets/logos/0027_CITYPITTS_BW.png").default,logo1:require("../assets/logos/0027_DGE_BW.png").default},
+    {id:4,month:36,location:require("../assets/continents/0053_con.png").default, glyph: require("../assets/glyphs/0053_B.png").default,logo:require("../assets/logos/0053_DESERTEC_BW.png").default,logo1:require("../assets/logos/0053_DESERTEC_BW.png").default},
+    {id:5,month:24,location:require("../assets/continents/0084_con.png").default, glyph: require("../assets/glyphs/0084_B.png").default,logo:require("../assets/logos/0084_Dayton_BW.png").default,logo1:require("../assets/logos/0084_MCLB_BW.png").default},
+],
+ u19:[
+    {id:0,month:18,location:require("../assets/continents/0024_con.png").default, glyph: require("../assets/glyphs/0024_B.png").default,logo:require("../assets/logos/0024_DGE_BW.png").default,logo1:require("../assets/logos/0024_Detroit__BW.png").default},
+    {id:1,month:18,location:require("../assets/continents/0025_con.png").default, glyph: require("../assets/glyphs/0025_B.png").default,logo:require("../assets/logos/0025_Cuyahoga_BW.png").default,logo1:require("../assets/logos/0025_DGE_BW.png").default},
+    {id:2,month:12,location:require("../assets/continents/0026_con.png").default, glyph: require("../assets/glyphs/0026_B.png").default,logo:require("../assets/logos/0026_DGE_BW.png").default,logo1:require("../assets/logos/0026_LOVELAND_BW.png").default},
+    {id:3,month:24,location:require("../assets/continents/0027_con.png").default, glyph: require("../assets/glyphs/0027_B.png").default,logo:require("../assets/logos/0027_CITYPITTS_BW.png").default,logo1:require("../assets/logos/0027_DGE_BW.png").default},
+    {id:4,month:36,location:require("../assets/continents/0053_con.png").default, glyph: require("../assets/glyphs/0053_B.png").default,logo:require("../assets/logos/0053_DESERTEC_BW.png").default,logo1:require("../assets/logos/0053_DESERTEC_BW.png").default},
+    {id:5,month:24,location:require("../assets/continents/0084_con.png").default, glyph: require("../assets/glyphs/0084_B.png").default,logo:require("../assets/logos/0084_Dayton_BW.png").default,logo1:require("../assets/logos/0084_MCLB_BW.png").default},
+],
+ u20: [
+    {id:0,month:12,location:require("../assets/continents/0007_con.png").default, glyph: require("../assets/glyphs/0007_B.png").default,logo:require("../assets/logos/0007_SILENTU_BW.png").default,logo1:require("../assets/logos/0007_Sroom_BW.png").default},
+    {id:1,month:12,location:require("../assets/continents/0008_con.png").default, glyph: require("../assets/glyphs/0008_B.png").default,logo:require("../assets/logos/0008_ringlok_BW.png").default,logo1:require("../assets/logos/0008_Impulse theater_BW.png").default},
+    {id:2,month:1,location:require("../assets/continents/0012_con.png").default, glyph: require("../assets/glyphs/0012_B.png").default,logo:require("../assets/logos/0012_FNCSF_BW.png").default,logo1:require("../assets/logos/0012_CSC_BW.png").default},
+    {id:3,month:36,location:require("../assets/continents/0044_con.png").default, glyph: require("../assets/glyphs/0044_A.png").default,logo:require("../assets/logos/0044_NIEED_BW.png").default},
+    {id:4,month:6,location:require("../assets/continents/0054_con.png").default, glyph: require("../assets/glyphs/0054_A.png").default,logo:require("../assets/logos/0054_SAS_BW.png").default,logo1:require("../assets/logos/0054_CSU_BW.png").default},
+    {id:5,month:48,location:require("../assets/continents/0084_con.png").default, glyph: require("../assets/glyphs/0082_B.png").default,logo:require("../assets/logos/0082_MCLB_BW.png").default,logo1:require("../assets/logos/0082_Dayton_BW.png").default},
+],
+ u21:[
+    {id:0,month:12,location:require("../assets/continents/0032_con.png").default, glyph: require("../assets/glyphs/0032_B.png").default,logo:require("../assets/logos/0032_GHC_BW.png").default,logo1:require("../assets/logos/0032_GHC_BW.png").default},
+    {id:1,month:12,location:require("../assets/continents/0033_con.png").default, glyph: require("../assets/glyphs/0033_B.png").default,logo:require("../assets/logos/0033_Atlascorp_BW.png").default,logo1:require("../assets/logos/0033_GHC_BW.png").default},
+    {id:2,month:12,location:require("../assets/continents/0034_con.png").default, glyph: require("../assets/glyphs/0034_B.png").default,logo:require("../assets/logos/0034_Atlascorp_BW.png").default,logo1:require("../assets/logos/0034_GHC_BW.png").default},
+    {id:3,month:12,location:require("../assets/continents/0035_con.png").default, glyph: require("../assets/glyphs/0035_B.png").default,logo:require("../assets/logos/0035_AMS_BW.png").default,logo1:require("../assets/logos/0035_Atlascorp_BW.png").default},
+    {id:4,month:12,location:require("../assets/continents/0036_con.png").default, glyph: require("../assets/glyphs/0036_B.png").default,logo:require("../assets/logos/0036_Atlascorp_BW.png").default,logo1:require("../assets/logos/0036_GHC_BW.png").default},
+    {id:5,month:24,location:require("../assets/continents/0083_con.png").default, glyph: require("../assets/glyphs/0083_B.png").default,logo:require("../assets/logos/0083_Dayton_BW.png").default,logo1:require("../assets/logos/0083_MCLB_BW.png").default},
+],
+ u22:[
+    {id:0,month:6,location:require("../assets/continents/0090_con.png").default, glyph: require("../assets/glyphs/0090_B.png").default,logo:require("../assets/logos/0090_CSU_BW.png").default,logo1:require("../assets/logos/0090_SAS_BW.png").default},
+    {id:1,month:12,location:require("../assets/continents/0096_con.png").default, glyph: require("../assets/glyphs/0096_A.png").default,logo:require("../assets/logos/0096_ALASKAMCC_BW.png").default},
+]
+}
 
 const createUsers = (usersDict) => {
-    let users = []
+     let users = []
     usersDict.forEach((user => {
         users.push(
             <SnapItem margin={{right: '73px'}} width="100%" height="100%" snapAlign="center">
@@ -451,7 +398,7 @@ const createUsers = (usersDict) => {
                         bottom:75,
                     }}
                          src={user.logo} alt={'User logo'}/>
-                    <TextBaseManySans style={{position:'relative',right:80,bottom:50}} fontSize={'80px'} >12</TextBaseManySans>
+                    <TextBaseManySans style={{position:'relative',right:80,bottom:50}} fontSize={'80px'} >{user.month}</TextBaseManySans>
                     <img style={{
                         objectFit: 'scale-down',
                         height: '40%',
@@ -467,6 +414,57 @@ const createUsers = (usersDict) => {
         )
     }))
     return users
+}
+
+const createMatches = (userId) => {
+     let matchesData = allMatches[userId];
+     let matchesRenderReady = []
+    matchesData.forEach((match => {
+        matchesRenderReady.push(
+            <SnapItem margin={{right: '73px'}} width="100%" height="100%" snapAlign="center">
+                <div style={{
+                    width: '100%',
+                    height: '100%',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    alignItems: 'center',
+                    justifyContent: 'center'
+                }}>
+                    <img style={{
+                        objectFit: 'scale-down',
+                        height: '40%',
+                        width: '50%',
+                        position: 'relative',
+                        top:60,
+                        // backgroundColor:'green'
+                    }}
+                         src={match.glyph} alt={'User glyph'}/>
+                    <img style={{
+                        objectFit: 'contain',
+                        height: '105px',
+                        position: 'relative',
+                        right: 70,
+                        top: 65,
+                    }}
+                         src={match.location} alt={'User location'}/>
+
+                    <img style={{
+                        objectFit: 'scale-down',
+                        height: '70px',
+                        width: '100px',
+                        position: 'relative',
+                        left: 90,
+                        bottom:95,
+                    }}
+                         src={match.logo} alt={'User logo'}/>
+                    <TextBaseManySans style={{position:'relative',left:80,bottom:50}} fontSize={'80px'} >{match.month}</TextBaseManySans>
+
+                    {/*<Glyph path={user.glyph}/>*/}
+                </div>
+            </SnapItem>
+        )
+    }))
+    return matchesRenderReady;
 }
 
 const Matching = () => {
@@ -486,8 +484,8 @@ const Matching = () => {
         goToBottomUser(2, {animationEnabled: false});
     }, []);
 
-    let usersTop = createUsers(mainUsers);
-    let usersBottom = createUsers(mainUsers).reverse();
+     let usersTop = createUsers(mainUsers);
+     let usersBottom = createMatches("u20");
 
     return (
         <MainContainer>
