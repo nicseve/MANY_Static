@@ -510,7 +510,7 @@ const Matching = () => {
                         {usersBottom}
                     </SnapList>
                 </div>
-                <div style={{display: 'flex', flexDirection: 'row', position: 'relative', top: '489px',left:'108px', gap: '30px'}}>
+                <div style={{zIndex:4,display: 'flex', flexDirection: 'row', position: 'relative', top: '489px',left:'108px', gap: '30px'}}>
                     {/*<LeftBlackButton style={{height: '20px'}} path={'/whatGlyph'}/>*/}
                     <ManyHomeButton style={{height: '30px'}} path={'/home'}/>
                     <RightBlackButton style={{height: '20px'}} path={'/matching'}/>
