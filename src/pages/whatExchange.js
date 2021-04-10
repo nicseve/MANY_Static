@@ -5,7 +5,7 @@ import {
     TextHeaderCush,
     IphoneScreen,
     TextBaseCush,
-    NavigationButton, LeftBlackButton, ManyHomeButton, RightBlackButton, NavButtonsContainer
+    LeftBlackButton, ManyHomeButton, RightBlackButton, NavButtonsContainer
 } from "../components";
 
 function WhatExchange() {
@@ -20,9 +20,8 @@ function WhatExchange() {
                 </div>
                 <div style={{display: 'flex', flexDirection: 'row', position: 'relative', top: '10px', left: '10px'}}>
 
-                    <div style={{marginTop: '50px'}}>
-                        <TextBaseCush fontSize='20px'> The group needs to engage _______ to ______. The group offers
-                            ______. </TextBaseCush>
+                    <div style={{marginTop: '50px',}}>
+                        <TextBaseCush fontSize='20px'> The group needs to engage _______ to ______. The group offers ______. </TextBaseCush>
                     </div>
                 </div>
                 <NavButtonsContainer>

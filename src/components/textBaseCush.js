@@ -3,7 +3,7 @@ import styled from 'styled-components';
 //TODO: Import fonts and make size a prop.
 const TextBaseCush = styled.text`
 {
-  position: fixed;
+  position: absolute;
   font-size: 24px;
   font-weight: bold;
   text-transform: initial;
