@@ -43,9 +43,9 @@ function WhatMore() {
                     right: 235,
                     gap: '53px'
                 }}>
-                    <LeftBlackButton style={{height: '20px'}} path={'/whatDuration'} navProps={usersText}/>
-                    <ManyHomeButton style={{height: '30px'}} path={'/home'}/>
-                    <RightBlackButton style={{height: '20px'}} path={'/matching'}/>
+                    <LeftBlackButton path={'/whatDuration'} navProps={usersText}/>
+                    <ManyHomeButton path={'/home'}/>
+                    <RightBlackButton path={'/matching'}/>
                 </div>
             </IphoneScreen>
         </MainContainer>

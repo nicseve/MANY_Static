@@ -4,10 +4,11 @@ import {NavigationButton, IphoneScreen, MainContainer, TextBaseCush, IphoneFrame
 export default class Home extends React.Component {
 
     render() {
+        const isSafari = /constructor/i.test(window.HTMLElement) || (function (p) { return p.toString() === "[object SafariRemoteNotification]"; })(!window['safari'] || (typeof safari !== 'undefined' && window['safari'].pushNotification));
+
         const signInButtonDisplayComponent = <TextBaseCush>Sign in</TextBaseCush>
         const createGroupButtonDisplayComponent = <TextBaseCush>Create a group</TextBaseCush>
         const viewPrevGroupsButtonDisplayComponent = <TextBaseCush>View previous groups</TextBaseCush>
-        var isSafari = /constructor/i.test(window.HTMLElement) || (function (p) { return p.toString() === "[object SafariRemoteNotification]"; })(!window['safari'] || (typeof safari !== 'undefined' && window['safari'].pushNotification));
         return (
             <MainContainer>
                 <IphoneFrame/>
@@ -23,6 +24,7 @@ export default class Home extends React.Component {
                         <NavigationButton height='60px' width='170px' path={'/home'} displayComponent=<ManyLogo/>/>
                         <div
                             style={{
+                                // Safari does not support the CSS gap property for flex.
                                 marginTop: isSafari ? '90px' : 0,
                                 display: 'flex',
                                 flexDirection: 'column',
