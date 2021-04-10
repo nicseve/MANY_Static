@@ -5,7 +5,7 @@ import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 function App() {
     return (
-        <Router>
+        <Router basename="/MANY_Static">
             <div>
                 <Switch>
                     <Route exact path="/">

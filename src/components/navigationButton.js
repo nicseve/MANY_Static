@@ -7,6 +7,10 @@ const StyledButton = styled(Button)`
   height: ${props => props.height ? props.height : '30px' };
   width: ${props => props.width ? props.width : '90px' };
   z-index: 1;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
 `;
 
 const NavigationButton = (props) => {
