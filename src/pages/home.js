@@ -7,7 +7,7 @@ export default class Home extends React.Component {
         const signInButtonDisplayComponent = <TextBaseCush>Sign in</TextBaseCush>
         const createGroupButtonDisplayComponent = <TextBaseCush>Create a group</TextBaseCush>
         const viewPrevGroupsButtonDisplayComponent = <TextBaseCush>View previous groups</TextBaseCush>
-
+        var isSafari = /constructor/i.test(window.HTMLElement) || (function (p) { return p.toString() === "[object SafariRemoteNotification]"; })(!window['safari'] || (typeof safari !== 'undefined' && window['safari'].pushNotification));
         return (
             <MainContainer>
                 <IphoneFrame/>
@@ -23,6 +23,7 @@ export default class Home extends React.Component {
                         <NavigationButton height='60px' width='170px' path={'/home'} displayComponent=<ManyLogo/>/>
                         <div
                             style={{
+                                marginTop: isSafari ? '90px' : 0,
                                 display: 'flex',
                                 flexDirection: 'column',
                                 justifyContent: 'center',
@@ -30,7 +31,7 @@ export default class Home extends React.Component {
                                 gap: '5px'
                             }}
                         >
-                            <NavigationButton path={'/'} width={'90px'}
+                            <NavigationButton path={'/'} width={'150px'}
                                               displayComponent={signInButtonDisplayComponent}/>
                             <NavigationButton path={'/whoGroup'} width={'170px'}
                                               displayComponent={createGroupButtonDisplayComponent}/>
