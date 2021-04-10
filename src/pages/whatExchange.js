@@ -5,7 +5,7 @@ import {
     TextHeaderCush,
     IphoneScreen,
     TextBaseCush,
-    NavigationButton, LeftBlackButton, ManyHomeButton, RightBlackButton
+    LeftBlackButton, ManyHomeButton, RightBlackButton, NavButtonsContainer
 } from "../components";
 
 function WhatExchange() {
@@ -20,15 +20,15 @@ function WhatExchange() {
                 </div>
                 <div style={{display: 'flex', flexDirection: 'row', position: 'relative', top: '10px', left: '10px'}}>
 
-                    <div style={{marginTop: '50px'}}>
+                    <div style={{marginTop: '50px',}}>
                         <TextBaseCush fontSize='20px'> The group needs to engage _______ to ______. The group offers ______. </TextBaseCush>
                     </div>
                 </div>
-                <div style={{display: 'flex', flexDirection: 'row', position: 'relative', top: '288px', gap: '55px'}}>
-                    <LeftBlackButton style={{height: '20px'}} path={'/whereGroup'}/>
-                    <ManyHomeButton style={{height: '30px'}} path={'/home'}/>
-                    <RightBlackButton style={{height: '20px'}} path={'/whatDuration'}/>
-                </div>
+                <NavButtonsContainer>
+                    <LeftBlackButton path={'/whereGroup'}/>
+                    <ManyHomeButton path={'/home'}/>
+                    <RightBlackButton path={'/whatDuration'}/>
+                </NavButtonsContainer>
             </IphoneScreen>
         </MainContainer>
     )

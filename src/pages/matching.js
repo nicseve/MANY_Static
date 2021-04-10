@@ -422,7 +422,7 @@ const createUsers = (usersDict) => {
     }))
     return users
 }
-
+// TODO: Remove all inline styling where possible
 const createMatches = (userId) => {
     let matchesData = allMatches[userId];
     let matchesRenderReady = []
@@ -511,9 +511,8 @@ const Matching = () => {
                     </SnapList>
                 </div>
                 <div style={{zIndex:4,display: 'flex', flexDirection: 'row', position: 'relative', top: '489px',left:'108px', gap: '30px'}}>
-                    {/*<LeftBlackButton style={{height: '20px'}} path={'/whatGlyph'}/>*/}
-                    <ManyHomeButton style={{height: '30px'}} path={'/home'}/>
-                    <RightBlackButton style={{height: '20px'}} path={'/matching'}/>
+                    <ManyHomeButton path={'/home'}/>
+                    <RightBlackButton path={'/matching'}/>
                 </div>
             </IphoneScreen>
         </MainContainer>

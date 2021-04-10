@@ -58,6 +58,7 @@ const WhatDurationMonths = () => {
                         {months}
                     </SnapList>
                 </div>
+                {/*TODO: Fix inline styling for this button*/}
                 <RightWhiteButton style={{position: 'relative', left: '230px', bottom: '50px', height: '20px'}}
                                   path={'/whatDuration'}/>
             </IphoneScreen>

@@ -7,7 +7,8 @@ import {
     LeftBlackButton,
     RightBlackButton,
     ManyHomeButton,
-    TextBaseManySans
+    TextBaseManySans,
+    NavButtonsContainer
 } from "../components/index";
 import {Input} from "@material-ui/core";
 import {useLocation} from "react-router-dom";
@@ -57,11 +58,11 @@ function WhereGroup() {
                         style={{width: '90%', fontFamily: 'MANYSans', fontSize: 'large'}}
                     />
                 </div>
-                <div style={{display: 'flex', flexDirection: 'row', position: 'relative', top: '252px', gap: '55px'}}>
-                    <LeftBlackButton style={{height: '20px'}} path={'/whoGroup'}/>
-                    <ManyHomeButton style={{height: '30px'}} path={'/home'}/>
-                    <RightBlackButton style={{height: '20px'}} path={'/whatExchange'}/>
-                </div>
+                <NavButtonsContainer>
+                    <LeftBlackButton path={'/whoGroup'}/>
+                    <ManyHomeButton path={'/home'}/>
+                    <RightBlackButton path={'/whatExchange'}/>
+                </NavButtonsContainer>
             </IphoneScreen>
         </MainContainer>
     )
