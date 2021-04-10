@@ -8,7 +8,7 @@ import {
     IphoneScreen,
     LeftBlackButton,
     RightBlackButton,
-    ManyHomeButton
+    ManyHomeButton, NavButtonsContainer
 } from "../components/index";
 
 
@@ -51,11 +51,13 @@ function WhoGroup() {
                         {/*</Button>*/}
                     </label>
                 </div>
-                <div style={{display: 'flex', flexDirection: 'row', position: 'relative', top: '336px', gap: '55px'}}>
-                    <LeftBlackButton style={{height: '20px'}} path={'/home'}/>
-                    <ManyHomeButton style={{height: '30px'}} path={'/home'}/>
-                    <RightBlackButton style={{height: '20px'}} path={'/whereGroup'}/>
-                </div>
+                <NavButtonsContainer>
+                {/*<div style={{display: 'flex', flexDirection: 'row', position: 'relative', top: '336px', gap: '55px'}}>*/}
+                    <LeftBlackButton path={'/home'}/>
+                    <ManyHomeButton path={'/home'}/>
+                    <RightBlackButton path={'/whereGroup'}/>
+                </NavButtonsContainer>
+                {/*</div>*/}
             </IphoneScreen>
         </MainContainer>
     );

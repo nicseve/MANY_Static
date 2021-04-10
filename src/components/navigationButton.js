@@ -6,6 +6,7 @@ import styled from "styled-components";
 const StyledButton = styled(Button)`
   height: ${props => props.height ? props.height : '30px' };
   width: ${props => props.width ? props.width : '90px' };
+  position:absolute;
   z-index: 1;
 `;
 

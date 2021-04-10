@@ -5,7 +5,7 @@ import {
     TextHeaderCush,
     IphoneScreen,
     TextBaseGothic,
-    NavigationButton, LeftBlackButton, ManyHomeButton, RightBlackButton, TextBaseManySans
+    NavigationButton, LeftBlackButton, ManyHomeButton, RightBlackButton, TextBaseManySans, NavButtonsContainer
 } from "../components";
 
 function WhatGlyph() {
@@ -31,11 +31,11 @@ function WhatGlyph() {
                         {/*</Button>*/}
                     </label>
                 </div>
-                <div style={{display: 'flex', flexDirection: 'row', position: 'relative', top: '404px', gap: '55px'}}>
-                    <LeftBlackButton style={{height: '20px'}} path={'/whatDuration'}/>
-                    <ManyHomeButton style={{height: '30px'}} path={'/home'}/>
-                    <RightBlackButton style={{height: '20px'}} path={'/matching'}/>
-                </div>
+                <NavButtonsContainer>
+                    <LeftBlackButton path={'/whatDuration'}/>
+                    <ManyHomeButton path={'/home'}/>
+                    <RightBlackButton path={'/matching'}/>
+                </NavButtonsContainer>
             </IphoneScreen>
         </MainContainer>
     )
