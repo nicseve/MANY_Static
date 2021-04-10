@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/MANY_Static/static/css/main.c337b63e.chunk.css",
-    "main.js": "/MANY_Static/static/js/main.f8dfa22a.chunk.js",
-    "main.js.map": "/MANY_Static/static/js/main.f8dfa22a.chunk.js.map",
-    "runtime-main.js": "/MANY_Static/static/js/runtime-main.06e3821b.js",
-    "runtime-main.js.map": "/MANY_Static/static/js/runtime-main.06e3821b.js.map",
-    "static/js/2.05a7bace.chunk.js": "/MANY_Static/static/js/2.05a7bace.chunk.js",
-    "static/js/2.05a7bace.chunk.js.map": "/MANY_Static/static/js/2.05a7bace.chunk.js.map",
-    "static/js/3.37632a9a.chunk.js": "/MANY_Static/static/js/3.37632a9a.chunk.js",
-    "static/js/3.37632a9a.chunk.js.map": "/MANY_Static/static/js/3.37632a9a.chunk.js.map",
+    "main.js": "/MANY_Static/static/js/main.965950c7.chunk.js",
+    "main.js.map": "/MANY_Static/static/js/main.965950c7.chunk.js.map",
+    "runtime-main.js": "/MANY_Static/static/js/runtime-main.b72ff38b.js",
+    "runtime-main.js.map": "/MANY_Static/static/js/runtime-main.b72ff38b.js.map",
+    "static/js/2.2d9e3cf2.chunk.js": "/MANY_Static/static/js/2.2d9e3cf2.chunk.js",
+    "static/js/2.2d9e3cf2.chunk.js.map": "/MANY_Static/static/js/2.2d9e3cf2.chunk.js.map",
+    "static/js/3.62f3565a.chunk.js": "/MANY_Static/static/js/3.62f3565a.chunk.js",
+    "static/js/3.62f3565a.chunk.js.map": "/MANY_Static/static/js/3.62f3565a.chunk.js.map",
     "index.html": "/MANY_Static/index.html",
     "service-worker.js": "/MANY_Static/service-worker.js",
     "service-worker.js.map": "/MANY_Static/service-worker.js.map",
     "static/css/main.c337b63e.chunk.css.map": "/MANY_Static/static/css/main.c337b63e.chunk.css.map",
-    "static/js/2.05a7bace.chunk.js.LICENSE.txt": "/MANY_Static/static/js/2.05a7bace.chunk.js.LICENSE.txt",
+    "static/js/2.2d9e3cf2.chunk.js.LICENSE.txt": "/MANY_Static/static/js/2.2d9e3cf2.chunk.js.LICENSE.txt",
     "static/media/0002_A.png": "/MANY_Static/static/media/0002_A.6d3d7014.png",
     "static/media/0002_FCC_BW.png": "/MANY_Static/static/media/0002_FCC_BW.2eb0372e.png",
     "static/media/0002_STLOUIS_BW.png": "/MANY_Static/static/media/0002_STLOUIS_BW.6d24de05.png",
@@ -337,9 +337,9 @@
     "static/media/iphone.603bede1.png": "/MANY_Static/static/media/iphone.603bede1.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.06e3821b.js",
-    "static/js/2.05a7bace.chunk.js",
+    "static/js/runtime-main.b72ff38b.js",
+    "static/js/2.2d9e3cf2.chunk.js",
     "static/css/main.c337b63e.chunk.css",
-    "static/js/main.f8dfa22a.chunk.js"
+    "static/js/main.965950c7.chunk.js"
   ]
 }
