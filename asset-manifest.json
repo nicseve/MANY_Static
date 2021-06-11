@@ -1,12 +1,14 @@
 {
   "files": {
     "main.css": "/MANY_Static/static/css/main.f67aeea9.chunk.css",
-    "main.js": "/MANY_Static/static/js/main.731ddaca.chunk.js",
-    "main.js.map": "/MANY_Static/static/js/main.731ddaca.chunk.js.map",
-    "runtime-main.js": "/MANY_Static/static/js/runtime-main.c70deb6a.js",
-    "runtime-main.js.map": "/MANY_Static/static/js/runtime-main.c70deb6a.js.map",
+    "main.js": "/MANY_Static/static/js/main.799b7447.chunk.js",
+    "main.js.map": "/MANY_Static/static/js/main.799b7447.chunk.js.map",
+    "runtime-main.js": "/MANY_Static/static/js/runtime-main.8ffa9e3b.js",
+    "runtime-main.js.map": "/MANY_Static/static/js/runtime-main.8ffa9e3b.js.map",
     "static/js/2.d7bc40bf.chunk.js": "/MANY_Static/static/js/2.d7bc40bf.chunk.js",
     "static/js/2.d7bc40bf.chunk.js.map": "/MANY_Static/static/js/2.d7bc40bf.chunk.js.map",
+    "static/js/3.561a949b.chunk.js": "/MANY_Static/static/js/3.561a949b.chunk.js",
+    "static/js/3.561a949b.chunk.js.map": "/MANY_Static/static/js/3.561a949b.chunk.js.map",
     "index.html": "/MANY_Static/index.html",
     "service-worker.js": "/MANY_Static/service-worker.js",
     "service-worker.js.map": "/MANY_Static/service-worker.js.map",
@@ -330,12 +332,13 @@
     "static/media/0096_con.png": "/MANY_Static/static/media/0096_con.001fcecf.png",
     "static/media/index.css": "/MANY_Static/static/media/MS Gothic Thesis.71061372.ttf",
     "static/media/MANY_HS_1.m4v": "/MANY_Static/static/media/MANY_HS_1.131d7620.m4v",
+    "static/media/MANY_Home_Logo.08d685e5.png": "/MANY_Static/static/media/MANY_Home_Logo.08d685e5.png",
     "static/media/iphone.603bede1.png": "/MANY_Static/static/media/iphone.603bede1.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.c70deb6a.js",
+    "static/js/runtime-main.8ffa9e3b.js",
     "static/js/2.d7bc40bf.chunk.js",
     "static/css/main.f67aeea9.chunk.css",
-    "static/js/main.731ddaca.chunk.js"
+    "static/js/main.799b7447.chunk.js"
   ]
 }
