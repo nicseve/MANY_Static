@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/MANY_Static/static/css/main.63f027ee.chunk.css",
+    "main.css": "/MANY_Static/static/css/main.58e02f6c.chunk.css",
     "main.js": "/MANY_Static/static/js/main.477f1fbb.chunk.js",
     "main.js.map": "/MANY_Static/static/js/main.477f1fbb.chunk.js.map",
     "runtime-main.js": "/MANY_Static/static/js/runtime-main.6867b07f.js",
@@ -12,7 +12,7 @@
     "index.html": "/MANY_Static/index.html",
     "service-worker.js": "/MANY_Static/service-worker.js",
     "service-worker.js.map": "/MANY_Static/service-worker.js.map",
-    "static/css/main.63f027ee.chunk.css.map": "/MANY_Static/static/css/main.63f027ee.chunk.css.map",
+    "static/css/main.58e02f6c.chunk.css.map": "/MANY_Static/static/css/main.58e02f6c.chunk.css.map",
     "static/js/2.e78d0398.chunk.js.LICENSE.txt": "/MANY_Static/static/js/2.e78d0398.chunk.js.LICENSE.txt",
     "static/media/0014_para.png": "/MANY_Static/static/media/0014_para.a4b9232c.png",
     "static/media/0016_para.png": "/MANY_Static/static/media/0016_para.4533b356.png",
@@ -78,7 +78,7 @@
     "static/media/69.1.png": "/MANY_Static/static/media/69.1.ea4ab64d.png",
     "static/media/70.1.png": "/MANY_Static/static/media/70.1.f26c07b3.png",
     "static/media/70.2.png": "/MANY_Static/static/media/70.2.cf65ffd0.png",
-    "static/media/index.css": "/MANY_Static/static/media/MSGothicThesis.71061372.ttf",
+    "static/media/index.css": "/MANY_Static/static/media/MSGothicThesis.32843f67.woff",
     "static/media/MANY_HS_1.m4v": "/MANY_Static/static/media/MANY_HS_1.131d7620.m4v",
     "static/media/MANY_Home_Logo.08d685e5.png": "/MANY_Static/static/media/MANY_Home_Logo.08d685e5.png",
     "static/media/iphone.603bede1.png": "/MANY_Static/static/media/iphone.603bede1.png"
@@ -86,7 +86,7 @@
   "entrypoints": [
     "static/js/runtime-main.6867b07f.js",
     "static/js/2.e78d0398.chunk.js",
-    "static/css/main.63f027ee.chunk.css",
+    "static/css/main.58e02f6c.chunk.css",
     "static/js/main.477f1fbb.chunk.js"
   ]
 }
