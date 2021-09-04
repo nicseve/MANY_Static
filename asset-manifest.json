@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/MANY_Static/static/css/main.71514a88.chunk.css",
-    "main.js": "/MANY_Static/static/js/main.b37a3e11.chunk.js",
-    "main.js.map": "/MANY_Static/static/js/main.b37a3e11.chunk.js.map",
-    "runtime-main.js": "/MANY_Static/static/js/runtime-main.6867b07f.js",
-    "runtime-main.js.map": "/MANY_Static/static/js/runtime-main.6867b07f.js.map",
-    "static/js/2.e78d0398.chunk.js": "/MANY_Static/static/js/2.e78d0398.chunk.js",
-    "static/js/2.e78d0398.chunk.js.map": "/MANY_Static/static/js/2.e78d0398.chunk.js.map",
-    "static/js/3.01ea06c1.chunk.js": "/MANY_Static/static/js/3.01ea06c1.chunk.js",
-    "static/js/3.01ea06c1.chunk.js.map": "/MANY_Static/static/js/3.01ea06c1.chunk.js.map",
+    "main.js": "/MANY_Static/static/js/main.9ee932f0.chunk.js",
+    "main.js.map": "/MANY_Static/static/js/main.9ee932f0.chunk.js.map",
+    "runtime-main.js": "/MANY_Static/static/js/runtime-main.67634828.js",
+    "runtime-main.js.map": "/MANY_Static/static/js/runtime-main.67634828.js.map",
+    "static/js/2.30098e6b.chunk.js": "/MANY_Static/static/js/2.30098e6b.chunk.js",
+    "static/js/2.30098e6b.chunk.js.map": "/MANY_Static/static/js/2.30098e6b.chunk.js.map",
+    "static/js/3.f7e55abd.chunk.js": "/MANY_Static/static/js/3.f7e55abd.chunk.js",
+    "static/js/3.f7e55abd.chunk.js.map": "/MANY_Static/static/js/3.f7e55abd.chunk.js.map",
     "index.html": "/MANY_Static/index.html",
     "service-worker.js": "/MANY_Static/service-worker.js",
     "service-worker.js.map": "/MANY_Static/service-worker.js.map",
     "static/css/main.71514a88.chunk.css.map": "/MANY_Static/static/css/main.71514a88.chunk.css.map",
-    "static/js/2.e78d0398.chunk.js.LICENSE.txt": "/MANY_Static/static/js/2.e78d0398.chunk.js.LICENSE.txt",
+    "static/js/2.30098e6b.chunk.js.LICENSE.txt": "/MANY_Static/static/js/2.30098e6b.chunk.js.LICENSE.txt",
     "static/media/0014_para.png": "/MANY_Static/static/media/0014_para.a4b9232c.png",
     "static/media/0016_para.png": "/MANY_Static/static/media/0016_para.4533b356.png",
     "static/media/0037_para.png": "/MANY_Static/static/media/0037_para.47880ebe.png",
@@ -84,9 +84,9 @@
     "static/media/iphone.603bede1.png": "/MANY_Static/static/media/iphone.603bede1.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.6867b07f.js",
-    "static/js/2.e78d0398.chunk.js",
+    "static/js/runtime-main.67634828.js",
+    "static/js/2.30098e6b.chunk.js",
     "static/css/main.71514a88.chunk.css",
-    "static/js/main.b37a3e11.chunk.js"
+    "static/js/main.9ee932f0.chunk.js"
   ]
 }
